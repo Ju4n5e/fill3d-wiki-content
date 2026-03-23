@@ -6,7 +6,8 @@ subseccion: ""
 material: ""
 tipo: "conceptual"
 ultima_revision: "2026-03-23"
-estado: "borrador"
+estado: "terminado"
+version: "1.0"
 ---
 
 # Slicers (Laminadores)
