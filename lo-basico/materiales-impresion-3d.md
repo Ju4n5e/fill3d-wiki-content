@@ -106,5 +106,5 @@ La estructura del polímero base limita qué aditivos funcionan. Las fibras cort
 
 ## También te puede interesar
 - [Introducción a la Impresión 3D](./introduccion-impresion-3d.md)
-- [Slicers (Laminadores)](./slicers.md) <!-- ⚠️ página pendiente de crear -->
+- [Slicers (Laminadores)](./slicers.md)
 - [Comparativa de Materiales](../consejos-de-impresion/por-tipo-de-material.md)

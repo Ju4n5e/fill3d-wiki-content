@@ -39,7 +39,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 3. Verifica que la temperatura de cama sea la adecuada para tu material (PLA: 50–60 °C, PETG: 70–85 °C, PA: 90–110 °C).
 4. Reduce la velocidad de primera capa al 25–30% de tu velocidad normal en el slicer.
 5. Activa el enclosure o elimina corrientes de aire del entorno de impresión.
-6. En el slicer, agrega [brim](../lo-basico/slicers.md) <!-- ⚠️ página pendiente de crear --> de al menos 5–8 mm alrededor de la pieza para aumentar el área de adhesión. El brim tiene variantes: el brim perimetral rodea toda la pieza, mientras que los **mouse ears** son pequeños discos de brim colocados únicamente en las esquinas críticas — una opción más limpia cuando no quieres brim en todo el contorno.
+6. En el slicer, agrega [brim](../lo-basico/slicers.md) de al menos 5–8 mm alrededor de la pieza para aumentar el área de adhesión. El brim tiene variantes: el brim perimetral rodea toda la pieza, mientras que los **mouse ears** son pequeños discos de brim colocados únicamente en las esquinas críticas — una opción más limpia cuando no quieres brim en todo el contorno.
 7. Si usas PEI, asegúrate de que esté limpio y sin rayaduras profundas.
 
 **Cómo prevenirlo:**

@@ -20,7 +20,7 @@ version: "1.0"
 
 Una impresora 3D es, en esencia, una máquina que construye objetos capa por capa, como si apilaras hojas de papel muy delgadas hasta formar un bloque sólido. En lugar de papel, usa plástico fundido; en lugar de hojas, deposita líneas de material tan finas que a simple vista parecen una sola pieza.
 
-El proceso empieza en tu computador: diseñas o descargas una figura en 3D, la procesas con un programa llamado [slicer](./slicers.md) <!-- ⚠️ página pendiente de crear --> —que la "rebana" en cientos de capas— y le envías las instrucciones a la impresora. Desde ese momento, la máquina trabaja sola: calienta el filamento hasta que fluye, lo empuja a través de una boquilla muy pequeña y lo deposita con precisión sobre una superficie plana llamada cama. Capa tras capa, el objeto va creciendo desde abajo hacia arriba.
+El proceso empieza en tu computador: diseñas o descargas una figura en 3D, la procesas con un programa llamado [slicer](./slicers.md) —que la "rebana" en cientos de capas— y le envías las instrucciones a la impresora. Desde ese momento, la máquina trabaja sola: calienta el filamento hasta que fluye, lo empuja a través de una boquilla muy pequeña y lo deposita con precisión sobre una superficie plana llamada cama. Capa tras capa, el objeto va creciendo desde abajo hacia arriba.
 
 Piénsalo como una pistola de silicona de altísima precisión montada sobre un brazo robótico: el mecanismo mueve la boquilla en el lugar exacto que el programa le indica, y el plástico se enfría rápido y se adhiere a la capa anterior. Al final del proceso tienes un objeto físico que horas antes solo existía en pantalla.
 

@@ -88,4 +88,4 @@ La presión dentro del hotend no es instantánea: existe un retraso entre el mov
 ## También te puede interesar
 - [Materiales de Impresión 3D](./materiales-impresion-3d.md)
 - [Impresoras 3D](./impresoras-3d.md)
-- [Slicers (Laminadores)](./slicers.md) <!-- ⚠️ página pendiente de crear -->
+- [Slicers (Laminadores)](./slicers.md)

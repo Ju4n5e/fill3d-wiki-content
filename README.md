@@ -11,6 +11,7 @@ El wiki está escrito en español (Colombia) y cubre desde los conceptos básico
 | Ícono | Significado |
 |---|---|
 | ✅ | Terminado |
+| 🔶 | Borrador — pendiente de revisión final |
 | ⬜ | Por crear |
 
 ---
@@ -45,7 +46,7 @@ content/
 │   │   ├── ✅  mantenimiento.md
 │   │   └── ✅  accesorios-y-repuestos.md
 │   │
-│   ├── ⬜  slicers.md
+│   ├── 🔶  slicers.md
 │   ├── ⬜  aplicaciones.md
 │   └── ⬜  datos-curiosos.md
 │
@@ -64,6 +65,6 @@ content/
 
 ## Progreso
 
-**15 / 24 archivos creados** — 15 terminados · 9 por crear
+**16 / 24 archivos creados** — 15 terminados · 1 en borrador · 8 por crear
 
 Una marca `⚠️ verificar` pendiente en `pa-nylon.md` (tipo específico de PA: PA6 vs PA12) — requiere confirmación del equipo FiLL-3D.
