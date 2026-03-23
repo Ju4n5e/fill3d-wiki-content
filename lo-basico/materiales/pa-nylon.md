@@ -5,8 +5,9 @@ seccion: "lo-basico"
 subseccion: "materiales"
 material: "PA"
 tipo: "material"
-ultima_revision: "2026-03-22"
-estado: "borrador"
+ultima_revision: "2026-03-23"
+estado: "terminado"
+version: "1.0"
 ---
 
 # PA (Nylon) — Ficha de Material
@@ -35,12 +36,12 @@ El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: 
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
-| Temperatura de boquilla | 240–270 °C ⚠️ verificar | Varía según tipo (PA6 vs PA12) |
-| Temperatura de cama | 70–100 °C ⚠️ verificar | Cama caliente obligatoria |
-| Velocidad de impresión | 30–50 mm/s ⚠️ verificar | Lento mejora adhesión intercapa |
-| Enfriamiento | 20–50 % ⚠️ verificar | Poco enfriamiento para buena fusión entre capas |
-| Retracción | 1–3 mm a 30 mm/s ⚠️ verificar | Ajustar según tipo de extrusor |
-| Flujo (flow) | 100–105 % ⚠️ verificar | |
+| Temperatura de boquilla | 275 °C | Estricto; ±5 °C afecta el flujo significativamente |
+| Temperatura de cama | 100 °C | Cama caliente obligatoria; minimiza contracción térmica |
+| Velocidad de impresión | 30–50 mm/s | Lento mejora adhesión intercapa |
+| Enfriamiento | 0 % (primeras 10 capas); rampa gradual a 10–50 % | Sin ventilador en capas iniciales; crítico para adhesión entre capas |
+| Retracción | 2 mm @ 40 mm/s | Pressure Advance K=0.038 |
+| Flujo (flow) | 100–105 %  | |
 | Cámara cerrada | Recomendada | Reduce warping en piezas grandes |
 
 ### Aplicaciones ideales
@@ -72,7 +73,7 @@ El PA es **altamente higroscópico** — puede absorber humedad del aire en poca
 
 ### Secado: temperatura, tiempo y método importan
 
-El secado del PA no es opcional ni aproximado. El PA6 requiere 80–85 °C por 8–12 horas para eliminar la humedad absorbida; el PA12 es algo más tolerante (70–80 °C por 6–8 horas). Un deshidratador de alimentos con control preciso de temperatura es superior a un horno doméstico porque mantiene temperatura uniforme sin ciclos. Una forma de verificar que el filamento está seco es pesarlo antes y después del secado: una pérdida de 0.5–2 % del peso indica humedad eliminada. ⚠️ verificar tipo de PA FiLL-3D para confirmar protocolo exacto de secado.
+El secado del PA no es opcional ni aproximado. El PA6 requiere 80–85 °C por 8–12 horas para eliminar la humedad absorbida; el PA12 es algo más tolerante (70–80 °C por 6–8 horas). Un deshidratador de alimentos con control preciso de temperatura es superior a un horno doméstico porque mantiene temperatura uniforme sin ciclos. Una forma de verificar que el filamento está seco es pesarlo antes y después del secado: una pérdida de 0.5–2 % del peso indica humedad eliminada. El protocolo oficial para el **FiLL-3D PA** es **85–95 °C por 12 horas**; si se usa menor temperatura, extender el tiempo proporcionalmente. Guardar en bolsa sellada con desecante después de secar.
 
 ### Adhesión a la cama: estrategias que funcionan
 

@@ -72,13 +72,13 @@ El **PLA** ocupa un punto intermedio: técnicamente semicristalino, pero con cin
 
 ### Los materiales disponibles
 
-**[PLA](../por-tipo-de-material/pla)** es el punto de entrada al mundo FDM. Bajo punto de fusión, baja contracción, colores vibrantes. Ideal para prototipos, decoración y piezas de bajo estrés mecánico. Su **alta rigidez** también juega a favor: un filamento rígido transmite la fuerza del extrusor de forma directa y predecible, sin doblarse ni pandear dentro del tubo — lo que lo hace igual de fácil de manejar en extrusores directos y en configuraciones Bowden de tubo largo. Es el material más usado a nivel mundial y el más accesible para calibrar una impresora.
+**[PLA](./materiales/pla.md)** es el punto de entrada al mundo FDM. Bajo punto de fusión, baja contracción, colores vibrantes. Ideal para prototipos, decoración y piezas de bajo estrés mecánico. Su **alta rigidez** también juega a favor: un filamento rígido transmite la fuerza del extrusor de forma directa y predecible, sin doblarse ni pandear dentro del tubo — lo que lo hace igual de fácil de manejar en extrusores directos y en configuraciones Bowden de tubo largo. Es el material más usado a nivel mundial y el más accesible para calibrar una impresora.
 
-**[PETG](../por-tipo-de-material/petg)** combina la facilidad de impresión del PLA con mejor resistencia a temperatura y humedad. Al ser menos rígido que el PLA, absorbe mejor los golpes en lugar de fracturarse — lo que lo hace más resistente al impacto y la opción natural para piezas funcionales que van cerca de fuentes de calor o en contacto con líquidos.
+**[PETG](./materiales/petg.md)** combina la facilidad de impresión del PLA con mejor resistencia a temperatura y humedad. Al ser menos rígido que el PLA, absorbe mejor los golpes en lugar de fracturarse — lo que lo hace más resistente al impacto y la opción natural para piezas funcionales que van cerca de fuentes de calor o en contacto con líquidos.
 
-**[PA — Nylon](../por-tipo-de-material/pa-nylon)** entra en escena cuando se necesita resistencia mecánica real: impacto, flexión cíclica, fricción. Es el material de los engranes, palancas y soportes funcionales. Requiere más cuidado en impresión y es altamente higroscópico — absorbe humedad del ambiente y eso afecta directamente la calidad.
+**[PA — Nylon](./materiales/pa-nylon.md)** entra en escena cuando se necesita resistencia mecánica real: impacto, flexión cíclica, fricción. Es el material de los engranes, palancas y soportes funcionales. Requiere más cuidado en impresión y es altamente higroscópico — absorbe humedad del ambiente y eso afecta directamente la calidad.
 
-**[PP — Polipropileno](../por-tipo-de-material/pp)** es uno de los plásticos más usados en industria y vida cotidiana (tapas de frascos, contenedores, piezas de auto), pero es de los más difíciles de imprimir bien por su alta contracción y baja adhesión. Cuando se logra, ofrece excelente resistencia química y una combinación única de rigidez con flexibilidad. Una forma de mejorar su imprimibilidad es añadir **fibra de carbono**, que actúa como estabilizador dimensional: las fibras restringen el movimiento de las cadenas poliméricas durante el enfriamiento, reducen la contracción y mejoran la fluidez del fundido — resultado: menos warping y una impresión más controlada. Ese es el principio detrás del [FiLL-3D PPCF](https://www.fill-3d.com/tienda/).
+**[PP — Polipropileno](./materiales/pp.md)** es uno de los plásticos más usados en industria y vida cotidiana (tapas de frascos, contenedores, piezas de auto), pero es de los más difíciles de imprimir bien por su alta contracción y baja adhesión. Cuando se logra, ofrece excelente resistencia química y una combinación única de rigidez con flexibilidad. Una forma de mejorar su imprimibilidad es añadir **fibra de carbono**, que actúa como estabilizador dimensional: las fibras restringen el movimiento de las cadenas poliméricas durante el enfriamiento, reducen la contracción y mejoran la fluidez del fundido — resultado: menos warping y una impresión más controlada. Ese es el principio detrás del [FiLL-3D PPCF](https://www.fill-3d.com/tienda/).
 
 ---
 
@@ -105,6 +105,6 @@ La estructura del polímero base limita qué aditivos funcionan. Las fibras cort
 ---
 
 ## También te puede interesar
-- [Introducción a la Impresión 3D](../introduccion-impresion-3d)
-- [Slicers (Laminadores)](../slicers)
-- [Comparativa de Materiales](../../consejos-de-impresion/por-tipo-de-material/index)
+- [Introducción a la Impresión 3D](./introduccion-impresion-3d.md)
+- [Slicers (Laminadores)](./slicers.md) <!-- ⚠️ página pendiente de crear -->
+- [Comparativa de Materiales](../consejos-de-impresion/por-tipo-de-material.md)

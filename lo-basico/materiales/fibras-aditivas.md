@@ -5,8 +5,9 @@ seccion: "lo-basico"
 subseccion: "materiales"
 material: "PPCF"
 tipo: "material"
-ultima_revision: "2026-03-22"
-estado: "borrador"
+ultima_revision: "2026-03-23"
+estado: "terminado"
+version: "1.0"
 ---
 
 # Fibras Aditivas — Ficha de Material
@@ -35,14 +36,14 @@ Los compuestos con fibra discontinua (corta) mejoran principalmente la **rigidez
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
-| Temperatura de boquilla | 240–260 °C ⚠️ verificar | Superior al PP base — las fibras aumentan viscosidad |
-| Temperatura de cama | 100–115 °C ⚠️ verificar | Igual al PP base |
-| Velocidad de impresión | 20–35 mm/s ⚠️ verificar | Más lento que PP puro |
-| Enfriamiento | 50–70 % ⚠️ verificar | |
-| Retracción | 1–3 mm a 30 mm/s ⚠️ verificar | Reducir vs PP base para evitar atascos |
-| Flujo (flow) | 100–110 % ⚠️ verificar | Las fibras pueden reducir el volumen efectivo extruido |
+| Temperatura de boquilla | 300 °C | Estricto; ±5 °C afecta el flujo significativamente |
+| Temperatura de cama | 80 °C | La estabilidad de la fibra de carbono permite cama menor que el PP base |
+| Velocidad de impresión | hasta 200 mm/s (17 mm³/s) | Mayor que PP puro — ver nota en Para Expertos |
+| Enfriamiento | 0 % (primeras 5 capas); luego hasta 80 % | Según fan_max_speed del perfil |
+| Retracción | 0.2 mm @ 45 mm/s | Pressure Advance K=0.044 |
+| Flujo (flow) | 100–110 % | Las fibras pueden reducir el volumen efectivo extruido |
 | Tipo de boquilla | Acero endurecido mínimo | **Obligatorio** — el latón se destruye en horas |
-| Diámetro de boquilla | 0.4–0.6 mm ⚠️ verificar | Boquillas más grandes reducen el riesgo de atasco |
+| Diámetro de boquilla | 0.4–0.6 mm | Boquillas más grandes reducen el riesgo de atasco |
 
 ### Aplicaciones ideales
 
@@ -65,7 +66,7 @@ Los compuestos con fibra discontinua (corta) mejoran principalmente la **rigidez
 
 ### Almacenamiento
 
-Seguir el protocolo del polímero base correspondiente. Para el PPCF, aunque el PP base no es muy higroscópico, las fibras pueden retener humedad superficial. Guardar sellado con sílica gel en todo momento. Secar a **60–70 °C por 4–6 horas** ⚠️ verificar antes de sesiones largas o impresiones críticas.
+Seguir el protocolo del polímero base correspondiente. Para el PPCF, aunque el PP base no es muy higroscópico, las fibras pueden retener humedad superficial. Guardar sellado con sílica gel en todo momento. Secar a **60 °C por 4 horas** antes de sesiones largas o impresiones críticas.
 
 ---
 
@@ -78,6 +79,12 @@ Los compuestos con fibra discontinua en FDM son fuertemente anisotrópicos. Dura
 ### Gestión del desgaste de boquilla y prevención de atascos
 
 Las fibras de carbono y vidrio desgastan incluso las boquillas de acero endurecido, aunque mucho más lento que el latón. Lleva registro del metraje impreso con materiales abrasivos y reemplaza la boquilla preventivamente (cada 3–10 kg de material según el grado de dureza del recubrimiento). Los atascos parciales son más frecuentes con fibra porque los fragmentos pueden acumularse en la zona de transición frío–caliente del hotend. Un cold pull con filamento de limpieza antes y después de cada sesión con compuestos prolonga significativamente la vida del conjunto hotend.
+
+### Por qué el PPCF imprime más rápido que el PP base
+
+El PP puro es un filamento excepcionalmente blando y flexible, lo que lo hace propenso al *buckling* en la zona de avance del extrusor: antes de que el hotend pueda fundir el material, el filamento se dobla o patina, limitando el flujo máximo. En pruebas de calibración con FiLL-3D PP el flujo volumétrico máximo alcanzado fue de **14 mm³/s**. Con FiLL-3D PPCF ese límite sube a **17 mm³/s** — equivalente a ~200 mm/s lineales con boquilla de 0.4 mm y altura de capa de 0.2 mm.
+
+El mecanismo no es una mejora de la fluidez del fundido (reológicamente, las fibras aumentan la viscosidad aparente), sino una mejora en la **transmisión de fuerza del extrusor**: las fibras cortas rigidizan el filamento sólido en la zona de avance, reduciendo el *buckling* y permitiendo mayor presión efectiva en la cámara de fusión antes del fallo. Dicho de otra forma: el cuello de botella del PP puro está en el filamento sólido, no en el hotend — y las fibras eliminan ese cuello de botella.
 
 ### Calibración de flujo y Pressure Advance en compuestos
 

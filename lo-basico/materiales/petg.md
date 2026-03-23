@@ -40,7 +40,7 @@ El PETG combina buena **resistencia mecánica**, mayor flexibilidad que el PLA y
 | Temperatura de cama | 70–85 °C | Cama caliente obligatoria |
 | Velocidad de impresión | 40–70 mm/s | Más lento mejora acabado y reduce stringing |
 | Enfriamiento | 30–60 % | Menos que PLA; enfriamiento excesivo reduce adhesión entre capas |
-| Retracción (bowden) | 3–5 mm a 40 mm/s | PETG es sensible — demasiada retracción genera grinding |
+| Retracción (bowden) | 1–2 mm a 40 mm/s | PETG es sensible — demasiada retracción genera grinding |
 | Retracción (direct drive) | 0.5–1.5 mm a 30 mm/s | |
 | Flujo (flow) | 95–100 % | |
 

@@ -32,11 +32,10 @@ Lo que hace especial a la impresión 3D FDM es que puedes fabricar casi cualquie
 
 El flujo completo de una impresión tiene tres etapas:
 
-1. **Modelo 3D:** El punto de partida es un archivo digital del objeto que quieres imprimir, generalmente en formato `.STL` o `.3MF` (conoce todos los [formatos de modelos 3D](../formatos-modelos-3d)). Puedes diseñarlo tú mismo o descargarlo de plataformas como Printables o Thingiverse.
+1. **Modelo 3D:** El punto de partida es un archivo digital del objeto que quieres imprimir, generalmente en formato `.STL` o `.3MF`. Puedes diseñarlo tú mismo o descargarlo de plataformas como Printables o Thingiverse.
 2. **Slicer:** Un software especializado convierte el modelo en instrucciones que la impresora entiende — el llamado **G-code**. Aquí defines parámetros como temperatura, velocidad, relleno (infill) y soportes.
 3. **Impresión:** La impresora ejecuta el G-code capa por capa. La boquilla funde el filamento a temperatura controlada y lo deposita sobre la cama con movimientos precisos en los ejes X, Y y Z.
 
-![Diagrama del proceso FDM: modelo 3D → slicer → impresora → objeto impreso](PENDIENTE_IMAGEN)
 
 ### Tipos de configuración de impresora
 
@@ -60,7 +59,7 @@ El extrusor es el sistema que empuja el filamento hacia la boquilla. Existen dos
 FDM es la tecnología dominante para uso doméstico y profesional ligero por razones prácticas:
 
 - **Costo:** Tanto las impresoras como los materiales son más económicos que en tecnologías como SLA (resina).
-- **Variedad de materiales:** PLA, PETG, ABS/ASA, TPU, Nylon y PP son algunos de los materiales más usados — cada uno con propiedades distintas de resistencia, flexibilidad y tolerancia al calor. Conoce más en [Materiales de Impresión 3D](../materiales-impresion-3d).
+- **Variedad de materiales:** PLA, PETG, ABS/ASA, TPU, Nylon y PP son algunos de los materiales más usados — cada uno con propiedades distintas de resistencia, flexibilidad y tolerancia al calor. Conoce más en [Materiales de Impresión 3D](./materiales-impresion-3d.md).
 - **Seguridad y limpieza:** El material se trabaja en estado sólido de filamento — no hay polvos que inhalar ni químicos líquidos que requieran ventilación especial o equipo de protección, a diferencia de tecnologías como SLA (resinas fotopoliméricas) o SLS (polvos sinterizados). El post-procesado es mínimo.
 - **Escalabilidad:** El mismo principio aplica desde impresoras de escritorio hasta máquinas industriales.
 
@@ -76,7 +75,7 @@ La resistencia de una pieza FDM es fundamentalmente **anisótropa**: es signific
 
 ### Resonancias y compensación de vibraciones
 
-En configuraciones CoreXY a alta velocidad (>150 mm/s), las inercias del cabezal generan vibraciones que producen artefactos visuales conocidos como **ringing** o ghosting. Los firmwares modernos (Klipper, Marlin 2.x) implementan **Input Shaping** para mitigar este efecto sin sacrificar velocidad. La frecuencia de resonancia debe medirse, no estimarse — dependiendo de la impresora el proceso puede ser automático, o puede realizarse manualmente con [herramientas de calibración](../herramientas-calibracion) como la que incluye Orca Slicer.
+En configuraciones CoreXY a alta velocidad (>150 mm/s), las inercias del cabezal generan vibraciones que producen artefactos visuales conocidos como **ringing** o ghosting. Los firmwares modernos (Klipper, Marlin 2.x) implementan **Input Shaping** para mitigar este efecto sin sacrificar velocidad. La frecuencia de resonancia debe medirse, no estimarse — dependiendo de la impresora el proceso puede ser automático, o puede realizarse manualmente con herramientas de calibración como la que incluye Orca Slicer.
 
 ### Pressure Advance y control de caudal
 
@@ -87,6 +86,6 @@ La presión dentro del hotend no es instantánea: existe un retraso entre el mov
 ---
 
 ## También te puede interesar
-- [Materiales de Impresión 3D](../materiales-impresion-3d)
-- [Impresoras 3D](../impresoras-3d)
-- [Slicers (Laminadores)](../slicers)
+- [Materiales de Impresión 3D](./materiales-impresion-3d.md)
+- [Impresoras 3D](./impresoras-3d.md)
+- [Slicers (Laminadores)](./slicers.md) <!-- ⚠️ página pendiente de crear -->

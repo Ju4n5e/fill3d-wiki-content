@@ -5,8 +5,9 @@ seccion: "lo-basico"
 subseccion: "materiales"
 material: "PLA"
 tipo: "material"
-ultima_revision: "2026-03-22"
-estado: "borrador"
+ultima_revision: "2026-03-23"
+estado: "terminado"
+version: "1.0"
 ---
 
 # PLA — Ficha de Material
@@ -39,9 +40,9 @@ El PLA es un polímero **semicristalino** de origen vegetal con buenas propiedad
 | Temperatura de cama | 25–60 °C | Sin cama caliente también funciona |
 | Velocidad de impresión | 40–80 mm/s | Velocidades más altas requieren más temperatura |
 | Enfriamiento | 100 % | El PLA agradece el enfriamiento máximo |
-| Retracción (bowden) | 4–6 mm a 45 mm/s | |
-| Retracción (direct drive) | 0.5–2 mm a 35 mm/s | |
-| Flujo (flow) | 95–100 % | Calibrar con torre de temperatura |
+| Retracción (bowden) | 1–2 mm a 45 mm/s | |
+| Retracción (direct drive) | 0.2–0.5 mm a 35 mm/s | |
+| Flujo (flow) | 95–100 % | Calibrar con tu setup específico |
 
 ### PLA Turbo — Alta velocidad
 
@@ -49,12 +50,12 @@ El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
-| Temperatura de boquilla | 210–230 °C ⚠️ verificar | Mayor temperatura para mayor caudal |
+| Temperatura de boquilla | 220–240 °C | Mayor temperatura para mayor caudal; flujo <20 mm³/s: 220 °C, 20–30: 225 °C, 30–40: 230 °C, >40: 235–240 °C |
 | Temperatura de cama | 35–60 °C | |
-| Velocidad de impresión | 150–300 mm/s ⚠️ verificar | Según capacidad de la impresora |
+| Velocidad de impresión | 150–500 mm/s | Según capacidad de la impresora |
 | Enfriamiento | 100 % | |
-| Retracción | Reducida vs PLA estándar ⚠️ verificar | El mayor flujo reduce la necesidad de retracción |
-| Flujo (flow) | 100–105 % ⚠️ verificar | Calibrar con tu setup específico |
+| Retracción | 0.1 mm @ 55 mm/s | Pressure Advance K=0.018; Adaptive Pressure Advance activado |
+| Flujo (flow) | 98% | Calibrar con tu setup específico |
 
 > El PLA Turbo se beneficia especialmente de boquillas de 0.6 mm o más cuando se imprimen capas gruesas a alta velocidad.
 

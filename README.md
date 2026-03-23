@@ -11,7 +11,6 @@ El wiki está escrito en español (Colombia) y cubre desde los conceptos básico
 | Ícono | Significado |
 |---|---|
 | ✅ | Terminado |
-| 🔶 | Borrador — pendiente de verificación técnica con el equipo FiLL-3D |
 | ⬜ | Por crear |
 
 ---
@@ -29,11 +28,11 @@ content/
 │   ├── ✅  materiales-impresion-3d.md        Hub → subsección materiales/
 │   │
 │   ├── materiales/
-│   │   ├── 🔶  pla.md                        Incluye PLA Turbo — verificación pendiente
+│   │   ├── ✅  pla.md                        Incluye PLA Turbo
 │   │   ├── ✅  petg.md
-│   │   ├── 🔶  pa-nylon.md                   Verificación pendiente
-│   │   ├── 🔶  pp.md                         Verificación pendiente
-│   │   └── 🔶  fibras-aditivas.md            Verificación pendiente
+│   │   ├── ✅  pa-nylon.md                   (1 valor pendiente de verificar: tipo PA)
+│   │   ├── ✅  pp.md
+│   │   └── ✅  fibras-aditivas.md
 │   │
 │   ├── ✅  impresoras-3d.md                  Hub → partes-impresora/ y mantenimiento/
 │   │
@@ -65,6 +64,6 @@ content/
 
 ## Progreso
 
-**15 / 24 archivos creados** — 11 terminados · 4 en borrador · 9 por crear
+**15 / 24 archivos creados** — 15 terminados · 9 por crear
 
-Los 4 archivos en borrador contienen marcas `⚠️ verificar` en valores técnicos (temperaturas, velocidades, parámetros de impresión) que requieren confirmación del equipo FiLL-3D antes de publicarse.
+Una marca `⚠️ verificar` pendiente en `pa-nylon.md` (tipo específico de PA: PA6 vs PA12) — requiere confirmación del equipo FiLL-3D.
