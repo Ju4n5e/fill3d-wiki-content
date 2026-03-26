@@ -32,7 +32,7 @@ Lo que hace especial a la impresión 3D FDM es que puedes fabricar casi cualquie
 
 El flujo completo de una impresión tiene tres etapas:
 
-1. **Modelo 3D:** El punto de partida es un archivo digital del objeto que quieres imprimir, generalmente en formato `.STL` o `.3MF`. Puedes diseñarlo tú mismo o descargarlo de plataformas como Printables o Thingiverse.
+1. **Modelo 3D:** El punto de partida es un archivo digital del objeto que quieres imprimir, generalmente en formato  o. Puedes diseñarlo tú mismo o descargarlo de plataformas como Printables o Thingiverse.
 2. **Slicer:** Un software especializado convierte el modelo en instrucciones que la impresora entiende — el llamado **G-code**. Aquí defines parámetros como temperatura, velocidad, relleno (infill) y soportes.
 3. **Impresión:** La impresora ejecuta el G-code capa por capa. La boquilla funde el filamento a temperatura controlada y lo deposita sobre la cama con movimientos precisos en los ejes X, Y y Z.
 
@@ -59,7 +59,7 @@ El extrusor es el sistema que empuja el filamento hacia la boquilla. Existen dos
 FDM es la tecnología dominante para uso doméstico y profesional ligero por razones prácticas:
 
 - **Costo:** Tanto las impresoras como los materiales son más económicos que en tecnologías como SLA (resina).
-- **Variedad de materiales:** PLA, PETG, ABS/ASA, TPU, Nylon y PP son algunos de los materiales más usados — cada uno con propiedades distintas de resistencia, flexibilidad y tolerancia al calor. Conoce más en [Materiales de Impresión 3D](./materiales-impresion-3d.md).
+- **Variedad de materiales:** PLA, PETG, ABS/ASA, TPU, Nylon y PP son algunos de los materiales más usados — cada uno con propiedades distintas de resistencia, flexibilidad y tolerancia al calor. Conoce más en Materiales de Impresión 3D.
 - **Seguridad y limpieza:** El material se trabaja en estado sólido de filamento — no hay polvos que inhalar ni químicos líquidos que requieran ventilación especial o equipo de protección, a diferencia de tecnologías como SLA (resinas fotopoliméricas) o SLS (polvos sinterizados). El post-procesado es mínimo.
 - **Escalabilidad:** El mismo principio aplica desde impresoras de escritorio hasta máquinas industriales.
 
@@ -86,6 +86,6 @@ La presión dentro del hotend no es instantánea: existe un retraso entre el mov
 ---
 
 ## También te puede interesar
-- [Materiales de Impresión 3D](./materiales-impresion-3d.md)
-- [Impresoras 3D](./impresoras-3d.md)
-- [Slicers (Laminadores)](./slicers.md)
+- Materiales de Impresión 3D
+- Impresoras 3D
+- Slicers (Laminadores)

@@ -54,10 +54,7 @@ Piénsalo como el botiquín de primeros auxilios de tu impresora: no lo usas tod
 | Repuesto | Cuándo tenerlo | Notas |
 |---|---|---|
 | **Boquillas de latón (0.4 mm)** | Siempre — son consumibles frecuentes | Stock de 3–5 unidades; cámbialas cada 1–3 meses |
-| **Boquilla de acero endurecido** | Si imprimes [PPCF](https://www.fill-3d.com/tienda/) o composites | Una boquilla de acero dura meses frente a horas de latón con abrasivos |
-| **Tubo PTFE** | Un trozo de repuesto de 50–100 cm | Cortarlo a medida; más crítico en setups Bowden |
-| **Termistor de hotend** | Al menos uno de repuesto | Falla con poca advertencia; sin él la impresora no opera |
-| **Calefactor (heater cartridge)** | Conveniente tener uno | Falla menos que el termistor pero deja la máquina inutilizable |
+| **Boquilla de acero endurecido** | Si imprimes PPCF** | Conveniente tener uno | Falla menos que el termistor pero deja la máquina inutilizable |
 
 ### Herramientas opcionales pero útiles
 
@@ -75,15 +72,15 @@ Piénsalo como el botiquín de primeros auxilios de tu impresora: no lo usas tod
 No todos los repuestos sirven para todos los modelos. En impresoras de sistema cerrado los componentes son específicos y no siempre intercambiables con genéricos del mercado. Identifica:
 
 1. **Referencia exacta de termistor:** Algunos hotends usan termistores NTC 100k con diferentes coeficientes beta. Instalar uno incorrecto genera lecturas de temperatura erróneas que pueden causar subderfusión o, peor, thermal runaway.
-2. **Voltaje de los ventiladores:** Los fans de 5V no son intercambiables con los de 24V sin conversor. Verificar en el esquema eléctrico de la impresora.
-3. **Diámetro interno del tubo PTFE:** Los hotends de alto rendimiento (Bambu Lab, Dragon, Rapido) usan tubo de 1.9mm ID, no el estándar de 2mm. Usar el diámetro incorrecto genera gaps donde se deposita material fundido y eventualmente genera atascos fríos.
+2. **Voltaje de los ventiladores:** Los fans de 5 V no son intercambiables con los de 24 V sin conversor. Verificar en el esquema eléctrico de la impresora.
+3. **Diámetro interno del tubo PTFE:** Los hotends de alto rendimiento (Bambu Lab, Dragon, Rapido) usan tubo de 1.9 mm ID, no el estándar de 2 mm. Usar el diámetro incorrecto genera gaps donde se deposita material fundido y eventualmente genera atascos fríos.
 
 ### Diagnóstico eléctrico con multímetro
 
 El multímetro te permite diagnosticar dos fallas muy frecuentes antes de reemplazar componentes a ciegas:
 
-- **Termistor:** Mide resistencia en frío (temperatura ambiente ~20–25 °C). Un termistor NTC 100k sano debe leer ~100 kΩ. Una lectura de 0Ω o infinito indica corte de circuito — reemplázalo.
-- **Calefactor:** Mide resistencia del cartucho calefactor. Un calefactor de 40W para 24V tiene ~14.4Ω de resistencia. Fuera de ese rango en ±20% indica falla. Una lectura de infinito (circuito abierto) confirma el calefactor quemado.
+- **Termistor:** Mide resistencia en frío (temperatura ambiente ~20–25 °C). Un termistor NTC 100k sano debe leer ~100 kΩ. Una lectura de 0 Ω o infinito indica corte de circuito — reemplázalo.
+- **Calefactor:** Mide resistencia del cartucho calefactor. Un calefactor de 40 W para 24 V tiene ~14.4 Ω de resistencia. Fuera de ese rango en ±20% indica falla. Una lectura de infinito (circuito abierto) confirma el calefactor quemado.
 - **Ventilador:** Con el multímetro en modo de voltaje DC, verifica que llegue la tensión correcta al conector cuando el firmware lo activa. Si llega voltaje pero no gira, el motor del ventilador está quemado.
 
 ### Accesorios imprimibles: la impresora que se mejora a sí misma
@@ -101,6 +98,6 @@ Una ventaja única de tener una impresora 3D es que puedes fabricar tus propios 
 ---
 
 ## También te puede interesar
-- [Mantenimiento de la Impresora](./mantenimiento.md)
-- [Extrusores](../partes-impresora/extrusores.md)
-- [Boquillas](../partes-impresora/boquillas.md)
+- Mantenimiento de la Impresora
+- Extrusores
+- Boquillas

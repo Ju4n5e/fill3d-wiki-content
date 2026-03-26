@@ -11,7 +11,7 @@ El wiki está escrito en español (Colombia) y cubre desde los conceptos básico
 | Ícono | Significado |
 |---|---|
 | ✅ | Terminado |
-| ⬜ | Por crear |
+| 📝 | Borrador — revisión editorial pendiente |
 
 ---
 
@@ -20,50 +20,60 @@ El wiki está escrito en español (Colombia) y cubre desde los conceptos básico
 ```
 content/
 │
-├── ⬜  index.md                              Página de inicio del wiki
+├── index.md                                    📝 Página de inicio
 │
 ├── lo-basico/
-│   ├── ⬜  index.md                          Índice de la sección
-│   ├── ✅  introduccion-impresion-3d.md
-│   ├── ✅  materiales-impresion-3d.md        Hub → subsección materiales/
-│   │
+│   ├── index.md                                📝 Índice de sección
+│   ├── introduccion-impresion-3d.md            ✅
+│   ├── materiales-impresion-3d.md              ✅
+│   ├── impresoras-3d.md                        ✅
+│   ├── slicers.md                              ✅
+│   ├── aplicaciones.md                         📝
+│   ├── datos-curiosos.md                       📝
 │   ├── materiales/
-│   │   ├── ✅  pla.md                        Incluye PLA Turbo
-│   │   ├── ✅  petg.md
-│   │   ├── ✅  pa-nylon.md                   (1 valor pendiente de verificar: tipo PA)
-│   │   ├── ✅  pp.md
-│   │   └── ✅  fibras-aditivas.md
-│   │
-│   ├── ✅  impresoras-3d.md                  Hub → partes-impresora/ y mantenimiento/
-│   │
+│   │   ├── pla.md                              ✅
+│   │   ├── petg.md                             ✅
+│   │   ├── pa-nylon.md                         ✅
+│   │   ├── pp.md                               ✅
+│   │   └── fibras-aditivas.md                  ✅
 │   ├── partes-impresora/
-│   │   ├── ✅  extrusores.md
-│   │   ├── ✅  boquillas.md
-│   │   └── ✅  camas-de-impresion.md
-│   │
-│   ├── mantenimiento/
-│   │   ├── ✅  mantenimiento.md
-│   │   └── ✅  accesorios-y-repuestos.md
-│   │
-│   ├── ✅  slicers.md
-│   ├── ⬜  aplicaciones.md
-│   └── ⬜  datos-curiosos.md
+│   │   ├── extrusores.md                       ✅
+│   │   ├── boquillas.md                        ✅
+│   │   └── camas-de-impresion.md               ✅
+│   └── mantenimiento/
+│       ├── mantenimiento.md                    ✅
+│       └── accesorios-y-repuestos.md           ✅
 │
-├── glosario/
-│   └── ⬜  index.md                          Glosario de términos técnicos
+├── consejos-de-impresion/
+│   ├── index.md                                📝 Índice de sección
+│   ├── por-tipo-de-material.md                 ✅
+│   ├── problemas-comunes.md                    ✅
+│   ├── post-procesado.md                       📝
+│   └── ciencia-de-materiales.md               📝
 │
-└── consejos-de-impresion/
-    ├── ⬜  index.md                          Índice de la sección
-    ├── ✅  por-tipo-de-material.md
-    ├── ✅  problemas-comunes.md
-    ├── ⬜  post-procesado.md
-    └── ⬜  ciencia-de-materiales.md
+└── glosario/
+    └── index.md                                📝 Glosario técnico
 ```
 
 ---
 
 ## Progreso
 
-**16 / 24 archivos creados** — 16 terminados · 0 en borrador · 8 por crear
+**24 / 24 archivos creados** — 16 terminados · 8 en borrador · 0 por crear
 
-Una marca `⚠️ verificar` pendiente en `pa-nylon.md` (tipo específico de PA: PA6 vs PA12) — requiere confirmación del equipo FiLL-3D.
+### Pendiente de revisión editorial (borradores)
+
+Los siguientes archivos están completos en contenido y valores técnicos verificados, pero aún no han pasado revisión editorial final:
+
+| Archivo | Notas |
+|---|---|
+| `index.md` | Página de inicio — revisar tono y links |
+| `lo-basico/index.md` | Índice de sección |
+| `lo-basico/aplicaciones.md` | — |
+| `lo-basico/datos-curiosos.md` | — |
+| `consejos-de-impresion/index.md` | Índice de sección |
+| `consejos-de-impresion/post-procesado.md` | — |
+| `consejos-de-impresion/ciencia-de-materiales.md` | — |
+| `glosario/index.md` | Revisar completitud de términos |
+
+Una vez aprobados, cambiar `estado: "borrador"` a `estado: "terminado"` en el frontmatter de cada archivo.

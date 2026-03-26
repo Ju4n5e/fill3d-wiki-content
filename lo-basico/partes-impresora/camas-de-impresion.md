@@ -30,7 +30,7 @@ El tipo de placa también afecta la textura del fondo de tu pieza: una superfici
 
 ### Tipos de cama y sus características
 
-| Tipo | Temp. máx. recomendada | Adhesión | Acabado superficial | Mejor para |
+| Tipo | Temp. Máx. Recomendada | Adhesión | Acabado superficial | Mejor para |
 |---|---|---|---|---|
 | **Vidrio (borosilicato)** | 110 °C | Media (requiere adhesivo) | Liso y brillante | PLA con adhesivo, PETG con adhesivo |
 | **PEI lisa** | 120 °C | Alta en caliente / suelta en frío | Muy liso, semi-brillante | PLA, ABS, TPU — uso general |
@@ -74,7 +74,7 @@ El PETG tiene una afinidad química con el PEI que puede crear un vínculo casi 
 
 El polipropileno tiene una energía superficial extremadamente baja, lo que significa que casi nada se le pega —incluyendo las superficies de las camas de impresión convencionales. Las estrategias más efectivas son: (1) usar una placa de PP virgen como superficie (el PP se adhiere a sí mismo), (2) cinta de PP (la misma de embalaje), o (3) adhesivos especiales. La placa de ingeniería de Bambu Lab o la placa lisa PEI de Creality funcionan bien para PPCF.
 
-### Temperatura real vs temperatura configurada
+### Temperatura real vs. temperatura configurada
 
 El sensor de temperatura de la cama mide en el calefactor, no en la superficie de impresión. Dependiendo del diseño y del aislamiento de la cama, la superficie real puede estar 5–15 °C por debajo del valor configurado. Si imprimes PA a 100 °C configurados pero la superficie real está a 88 °C, el warping aumentará. Verifica con un termómetro de contacto o infrarrojo y ajusta el setpoint en consecuencia. Este diferencial es más pronunciado en camas grandes (300×300 mm o más) y en los bordes.
 
@@ -83,6 +83,6 @@ El sensor de temperatura de la cama mide en el calefactor, no en la superficie d
 ---
 
 ## También te puede interesar
-- [Extrusores](./extrusores.md)
-- [Boquillas](./boquillas.md)
-- [Mantenimiento de la Impresora](../mantenimiento/mantenimiento.md)
+- Extrusores
+- Boquillas
+- Mantenimiento de la Impresora

@@ -39,7 +39,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 3. Verifica que la temperatura de cama sea la adecuada para tu material (PLA: 50–60 °C, PETG: 70–85 °C, PA: 90–110 °C).
 4. Reduce la velocidad de primera capa al 25–30% de tu velocidad normal en el slicer.
 5. Activa el enclosure o elimina corrientes de aire del entorno de impresión.
-6. En el slicer, agrega [brim](../lo-basico/slicers.md) de al menos 5–8 mm alrededor de la pieza para aumentar el área de adhesión. El brim tiene variantes: el brim perimetral rodea toda la pieza, mientras que los **mouse ears** son pequeños discos de brim colocados únicamente en las esquinas críticas — una opción más limpia cuando no quieres brim en todo el contorno.
+6. En el slicer, agrega brim de al menos 5–8 mm alrededor de la pieza para aumentar el área de adhesión. El brim tiene variantes: el brim perimetral rodea toda la pieza, mientras que los **mouse ears** son pequeños discos de brim colocados únicamente en las esquinas críticas — una opción más limpia cuando no quieres brim en todo el contorno.
 7. Si usas PEI, asegúrate de que esté limpio y sin rayaduras profundas.
 
 **Cómo prevenirlo:**
@@ -49,11 +49,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 - Asegúrate de que la cama esté nivelada y el z-offset sea óptimo antes de cada impresión — una primera capa bien aplastada es la base de todo lo demás.
 
 > 💡 **Boquilla limpia antes de imprimir:** Verifica que la boquilla esté libre de material adherido o carbonizado antes de comenzar. Los restos de filamento en la punta interfieren con los sensores de nivelación automática (ABL), impidiendo que la impresora calibre correctamente la altura de la primera capa y comprometiendo la adhesión desde el inicio.
-- El [FiLL-3D PLA](https://www.fill-3d.com/tienda/) tiene un diámetro consistente a lo largo de todo el rollo, lo que reduce variaciones de flujo en la primera capa que pueden iniciar el warping.
-
----
-
-## Stringing (Hilos Entre Partes)
+- El FiLL-3D PLA
 
 **Síntoma visible:** Hilos finos de plástico que quedan entre zonas separadas de la pieza, como telarañas. Frecuente en modelos con partes aisladas o torres.
 
@@ -72,30 +68,13 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 
 **Cómo prevenirlo:**
 - Guarda siempre el filamento en bolsas herméticas con desecante entre usos.
-- El [FiLL-3D PLA](https://www.fill-3d.com/tienda/) viene empacado al vacío en una bolsa resellable especialmente diseñada para proteger el material de la humedad — esto significa que el filamento llega en condiciones óptimas y, al resellarlo correctamente después de cada uso, puedes prolongar esa protección sin necesidad de recipientes adicionales.
-- Un filamento con diámetro uniforme, como el FiLL-3D, facilita encontrar el punto exacto de retracción porque el flujo es predecible —con filamentos inconsistentes, el punto óptimo cambia constantemente.
-
----
-
-## Separación de Capas
-
-**Síntoma visible:** La pieza se separa horizontalmente entre capas, como si las láminas de plástico no se hubieran pegado entre sí. Puede ocurrir durante la impresión o al manipular la pieza terminada.
-
-**Causas más frecuentes:**
-- Temperatura de boquilla demasiado baja — el material no funde lo suficiente para adherirse a la capa anterior.
-- Altura de capa demasiado grande en relación al diámetro de la boquilla.
-- Velocidad de impresión excesiva que reduce el tiempo de contacto entre capas.
-- Enfriamiento agresivo que solidifica el material antes de que pueda adherirse.
-
-**Solución paso a paso:**
-1. Sube la temperatura de boquilla en 5 °C y observa si la adhesión mejora.
-2. Verifica que la altura de capa no supere el 80% del diámetro de tu boquilla (ej: boquilla de 0.4 mm → máximo 0.32 mm de altura de capa).
+- El FiLL-3D PLA.
 3. Reduce la velocidad de impresión un 20%.
 4. Si usas ventilación activa al 100%, redúcela al 50–70% para materiales como PLA que igual necesitan algo de enfriamiento, pero no excesivo.
 5. Para materiales técnicos (PA, PETG, PP), desactiva completamente la ventilación en las primeras capas.
 
 **Cómo prevenirlo:**
-- Consulta siempre el rango de temperatura recomendado para cada filamento. Los materiales FiLL-3D tienen rangos probados y documentados en sus [páginas de material](./por-tipo-de-material.md).
+- Consulta siempre el rango de temperatura recomendado para cada filamento. Los materiales FiLL-3D tienen rangos probados y documentados en sus páginas de material.
 
 ---
 
@@ -150,7 +129,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 **Síntoma visible:** El extrusor hace clic repetitivos (skipping); el filamento deja de salir parcial o completamente; la impresión tiene zonas sin material o para abruptamente.
 
 **Causas más frecuentes:**
-- Cambio de material sin hacer purga adecuada (ej: pasar de ABS a PLA sin limpiar).
+- Cambio de material sin hacer purga adecuada (ej.: pasar de ABS a PLA sin limpiar).
 - Temperatura demasiado baja que solidifica el material antes de que pase por la boquilla.
 - Flujo demasiado alto que demanda más material del que la boquilla puede fundir y evacuar a tiempo.
 - Restos de filamentos anteriores carbonizados dentro de la boquilla por impresión a alta temperatura sin purga.
@@ -220,8 +199,8 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 ---
 
 ## También te puede interesar
-- [Guía de Impresión — PLA](./por-tipo-de-material.md)
-- [Guía de Impresión — PETG](./por-tipo-de-material.md)
-- [Comparativa de Materiales](./por-tipo-de-material.md)
-- [Post-Procesado](./post-procesado.md) <!-- ⚠️ página pendiente de crear -->
-- [Glosario Técnico](../glosario/index.md) <!-- ⚠️ página pendiente de crear -->
+- Guía de Impresión — PLA
+- Guía de Impresión — PETG
+- Comparativa de Materiales
+- Post-Procesado 
+- Glosario Técnico 

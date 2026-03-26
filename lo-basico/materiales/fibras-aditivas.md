@@ -20,17 +20,7 @@ version: "1.0"
 
 Los filamentos con **fibra de carbono** o **fibra de vidrio** son materiales compuestos: toman un plástico base y le mezclan fibras cortas para hacerlo notablemente más rígido y resistente. El resultado es un material con comportamiento diferente al base: más duro al tacto, con un acabado superficial mate muy particular, y piezas considerablemente más rígidas sin aumentar el peso.
 
-En el catálogo de FiLL-3D esta categoría está representada por el [PPCF](https://www.fill-3d.com/tienda/) — polipropileno reforzado con fibra de carbono — un material técnico premium que combina la ligereza y resistencia química del PP con la rigidez que solo la fibra de carbono puede agregar.
-
-La advertencia más importante antes de empezar: estos filamentos son **altamente abrasivos** y destruyen las boquillas de latón estándar en pocas horas de impresión. Antes de cargar cualquier compuesto con fibra, necesitas instalar una boquilla de acero endurecido, acero inoxidable, rubí o carburo. Esto no es opcional — es el primer requisito del equipo.
-
----
-
-## Todo lo que Necesitas Saber
-
-### Características del material
-
-Los compuestos con fibra discontinua (corta) mejoran principalmente la **rigidez** (módulo de Young) y la **resistencia específica** (resistencia por unidad de peso) del polímero base. La fibra de carbono maximiza la rigidez y reduce el peso; la fibra de vidrio es más económica y mejora también la resistencia al impacto. En ambos casos, la **fragilidad** aumenta respecto al polímero puro — los compuestos con fibra son menos dúctiles y absorben menos energía antes de fracturarse.
+En el catálogo de FiLL-3D esta categoría está representada por el PPCF mejoran principalmente la **rigidez** (módulo de Young) y la **resistencia específica** (resistencia por unidad de peso) del polímero base. La fibra de carbono maximiza la rigidez y reduce el peso; la fibra de vidrio es más económica y mejora también la resistencia al impacto. En ambos casos, la **fragilidad** aumenta respecto al polímero puro — los compuestos con fibra son menos dúctiles y absorben menos energía antes de fracturarse.
 
 ### Parámetros de impresión recomendados — FiLL-3D PPCF
 
@@ -60,7 +50,7 @@ Los compuestos con fibra discontinua (corta) mejoran principalmente la **rigidez
 |---|---|
 | Alta rigidez específica (rigidez/peso) | Abrasivo — destruye boquillas de latón rápidamente |
 | Acabado superficial mate de alta calidad | Más frágil que el polímero base solo |
-| Reduce warping vs el polímero base solo | Requiere boquilla especializada (costo adicional) |
+| Reduce warping vs. el polímero base solo | Requiere boquilla especializada (costo adicional) |
 | Mantiene las propiedades del polímero base | Mayor costo que el material base |
 | Excelente para piezas estructurales livianas | Resistencia en Z significativamente menor que en XY |
 
@@ -95,6 +85,6 @@ Los filamentos con fibra tienen reología diferente al polímero base: la viscos
 ---
 
 ## También te puede interesar
-- [PP — Ficha de Material](./pp.md)
-- [PA (Nylon) — Ficha de Material](./pa-nylon.md)
-- [Consejos de Impresión por Tipo de Material](../../consejos-de-impresion/por-tipo-de-material.md)
+- PP — Ficha de Material
+- PA (Nylon) — Ficha de Material
+- Consejos de Impresión por Tipo de Material

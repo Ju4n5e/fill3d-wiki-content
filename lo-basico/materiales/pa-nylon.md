@@ -30,7 +30,7 @@ Si vienes del PLA, el salto al PA es significativo pero vale la pena cuando el p
 
 ### Características del material
 
-El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: alta **resistencia al impacto**, buena **resistencia a la fatiga** y muy bajo coeficiente de fricción superficial — ideal para piezas en contacto y movimiento. Existen varios tipos; el **PA12** es el más común en filamentos FDM por su menor absorción de humedad y menor warping versus el PA6. ⚠️ verificar qué tipo específico es el FiLL-3D PA.
+El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: alta **resistencia al impacto**, buena **resistencia a la fatiga** y muy bajo coeficiente de fricción superficial — ideal para piezas en contacto y movimiento. Existen varios tipos; el **[FiLL-3D PA](https://www.fill-3d.com/tienda/) es PA12**, la variante con menor absorción de humedad y menor warping versus el PA6, lo que lo hace el más adecuado para impresión FDM de escritorio.
 
 ### Parámetros de impresión recomendados — FiLL-3D PA
 

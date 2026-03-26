@@ -24,26 +24,7 @@ más los tips de uso que no caben en un archivo de slicer. Imprime con confianza
 
 * **Temperatura de cama:** 50–60 °C (opcional; temperatura ambiente funciona con lámina PEI + adhesivo)
 * **Temperatura de boquilla:** 235 °C base (ajustar según flujo volumétrico y color)
-  - Flujo volumétrico < 20 mm³/s: 220 °C
-  - Flujo volumétrico 20–30 mm³/s: 225 °C
-  - Flujo volumétrico 30–40 mm³/s: 230 °C
-* **Enfriamiento:** 100% a partir de la capa 2
-* **Tiempo mínimo por capa:** ≥3 segundos (las capas pequeñas necesitan tiempo para solidificar antes de la siguiente)
-* **Retracción:** 0.2 mm @ 45 mm/s (Pressure Advance: K=0.021)
-* **Secado recomendado:** 60 °C, 2–4 horas (PLA es poco higroscópico; secado opcional pero recomendado para mejor calidad de superficie)
-* **Post-procesado:** Lijado y pintura para acabados suaves; mínimo warping post-impresión
-* **Tips especiales:** Evita soportes en ángulos ≤45° (se rompen limpio). Usa brim en piezas altas y delgadas. Ideal para prototipos visuales. El flujo volumétrico se calcula como `altura de capa × velocidad de línea × ancho de línea`; velocidades bajas (<50 mm/s) o capas muy finas requieren menor temperatura.
-
----
-
-## PLA Turbo
-
-* **Temperatura de cama:** 55–65 °C (opcional; más alta que PLA básico para mejor adhesión a alta velocidad)
-* **Temperatura de boquilla:** 220–240 °C (ajustar según flujo volumétrico; diseñado para flujos altos)
-  - Flujo volumétrico < 20 mm³/s: 220 °C
-  - Flujo volumétrico 20–30 mm³/s: 225 °C
-  - Flujo volumétrico 30–40 mm³/s: 230 °C
-  - Flujo volumétrico > 40 mm³/s: 235–240 °C
+  - Flujo volumétrico  40 mm³/s: 235–240 °C
 * **Enfriamiento:** 100% a partir de la capa 2 (pero gestiona con cuidado en detalles pequeños; tolera mejor enfriamiento que PLA estándar)
 * **Tiempo mínimo por capa:** ≥2 segundos (material de alta velocidad; las capas se solidifican más rápido)
 * **Retracción:** 0.1 mm @ 55 mm/s (Adaptive Pressure Advance activado; K base: 0.018)
@@ -87,7 +68,7 @@ más los tips de uso que no caben en un archivo de slicer. Imprime con confianza
 * **Temperatura de cama:** 100 °C (placa de ingeniería a 100 °C en Bambu Lab; o sin calefacción con adhesivo específico para PP)
 * **Temperatura de boquilla:** 300 °C (estricto; ±5 °C afecta el flujo significativamente)
 * **Temperatura de ambiente:** 40–60 °C (minimiza warping; mantén la cámara de impresión cerrada)
-* **Enfriamiento:** 0% en las primeras 5 capas; luego 20–30% máx (material muy sensible al enfriamiento rápido)
+* **Enfriamiento:** 0% en las primeras 5 capas; luego 20–30% máx. (material muy sensible al enfriamiento rápido)
 * **Tiempo mínimo por capa:** ≥5 segundos (muy sensible al enfriamiento rápido; warping severo si se apresura)
 * **Retracción:** 0.2 mm @ 40 mm/s (Pressure Advance: K=0.085)
 * **Secado recomendado:** 60 °C, 4 horas (PP es poco higroscópico; secado opcional pero recomendado para mejor calidad de impresión)
@@ -111,7 +92,7 @@ más los tips de uso que no caben en un archivo de slicer. Imprime con confianza
 ---
 
 ## También te puede interesar
-- [Materiales de Impresión 3D](../lo-basico/materiales-impresion-3d.md)
-- [PA (Nylon) — Ficha de Material](../lo-basico/materiales/pa-nylon.md)
-- [Problemas Comunes de Impresión](./problemas-comunes.md)
-- [Post-Procesado](./post-procesado.md)
+- Materiales de Impresión 3D
+- PA (Nylon) — Ficha de Material
+- Problemas Comunes de Impresión
+- Post-Procesado

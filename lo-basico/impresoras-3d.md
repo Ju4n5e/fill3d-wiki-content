@@ -20,7 +20,7 @@ version: "1.0"
 
 Una impresora 3D es, en esencia, una máquina que construye objetos capa por capa, como si apilaras hojas de papel muy delgadas hasta formar un bloque sólido. En lugar de papel, usa plástico fundido; en lugar de hojas, deposita líneas de material tan finas que a simple vista parecen una sola pieza.
 
-El proceso empieza en tu computador: diseñas o descargas una figura en 3D, la procesas con un programa llamado [slicer](./slicers.md) —que la "rebana" en cientos de capas— y le envías las instrucciones a la impresora. Desde ese momento, la máquina trabaja sola: calienta el filamento hasta que fluye, lo empuja a través de una boquilla muy pequeña y lo deposita con precisión sobre una superficie plana llamada cama. Capa tras capa, el objeto va creciendo desde abajo hacia arriba.
+El proceso empieza en tu computador: diseñas o descargas una figura en 3D, la procesas con un programa llamado slicer —que la "rebana" en cientos de capas— y le envías las instrucciones a la impresora. Desde ese momento, la máquina trabaja sola: calienta el filamento hasta que fluye, lo empuja a través de una boquilla muy pequeña y lo deposita con precisión sobre una superficie plana llamada cama. Capa tras capa, el objeto va creciendo desde abajo hacia arriba.
 
 Piénsalo como una pistola de silicona de altísima precisión montada sobre un brazo robótico: el mecanismo mueve la boquilla en el lugar exacto que el programa le indica, y el plástico se enfría rápido y se adhiere a la capa anterior. Al final del proceso tienes un objeto físico que horas antes solo existía en pantalla.
 
@@ -44,9 +44,9 @@ Independientemente de la arquitectura, todas las impresoras FFF comparten los mi
 
 | Componente | Función |
 |---|---|
-| **Extrusor** | Empuja el filamento desde el carrete hasta la boquilla. Puede ser directo (montado sobre el cabezal) o Bowden (separado, conectado por un tubo). Ver página dedicada: [Extrusores](./partes-impresora/extrusores.md) |
-| **Hotend y boquilla** | Funden el filamento y lo depositan con precisión. El diámetro de la boquilla determina la resolución y la velocidad posibles. Ver página dedicada: [Boquillas](./partes-impresora/boquillas.md) |
-| **Cama de impresión** | Superficie donde se construye la pieza. Puede ser fría o calentada, y de distintos materiales según el filamento. Ver página dedicada: [Camas de Impresión](./partes-impresora/camas-de-impresion.md) |
+| **Extrusor** | Empuja el filamento desde el carrete hasta la boquilla. Puede ser directo (montado sobre el cabezal) o Bowden (separado, conectado por un tubo). Ver página dedicada: Extrusores |
+| **Hotend y boquilla** | Funden el filamento y lo depositan con precisión. El diámetro de la boquilla determina la resolución y la velocidad posibles. Ver página dedicada: Boquillas |
+| **Cama de impresión** | Superficie donde se construye la pieza. Puede ser fría o calentada, y de distintos materiales según el filamento. Ver página dedicada: Camas de Impresión |
 | **Estructura y ejes** | El chasis y los rieles o varillas que guían el movimiento. Su rigidez impacta directamente la calidad de impresión. |
 | **Motores paso a paso** | Controlan el movimiento con precisión milimétrica en cada eje y en el extrusor. |
 | **Placa controladora** | El "cerebro" de la impresora: interpreta el G-code y coordina todos los motores y sensores. |
@@ -98,13 +98,11 @@ Los sistemas multi-material (AMS, ERCF, Palette) introducen variables de purga q
 
 ### Tolerancias dimensionales y shrinkage por material
 
-Las tolerancias reales de una pieza impresa no dependen solo de la resolución del eje: el shrinkage del material al enfriar introduce errores sistemáticos que el slicer puede compensar con un factor de escala. PA y PP tienen shrinkage anisótropo significativo (hasta 2–3% en XY vs. Z); PLA y PETG son más estables (<0,5%). Para piezas de ensamble con tolerancias < 0,2 mm es indispensable imprimir una pieza de calibración dimensional antes de producir el lote.
-
-> 💡 **Nota técnica:** El coeficiente de expansión térmica lineal (CTE) del PLA ronda los 68 µm/m·°C, frente a los ~90 µm/m·°C del PETG y los ~100–150 µm/m·°C del PP. En piezas que operan en ambientes con variación de temperatura, esta diferencia determina si el ensamble mantiene o pierde tolerancia en servicio.
+Las tolerancias reales de una pieza impresa no dependen solo de la resolución del eje: el shrinkage del material al enfriar introduce errores sistemáticos que el slicer puede compensar con un factor de escala. PA y PP tienen shrinkage anisótropo significativo (hasta 2–3% en XY vs. Z); PLA y PETG son más estables (💡 **Nota técnica:** El coeficiente de expansión térmica lineal (CTE) del PLA ronda los 68 µm/m·°C, frente a los ~90 µm/m·°C del PETG y los ~100–150 µm/m·°C del PP. En piezas que operan en ambientes con variación de temperatura, esta diferencia determina si el ensamble mantiene o pierde tolerancia en servicio.
 
 ---
 
 ## También te puede interesar
-- [Extrusores](./partes-impresora/extrusores.md)
-- [Boquillas](./partes-impresora/boquillas.md)
-- [Camas de Impresión](./partes-impresora/camas-de-impresion.md)
+- Extrusores
+- Boquillas
+- Camas de Impresión

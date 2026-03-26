@@ -22,15 +22,7 @@ El **PP** (polipropileno) es uno de los plásticos más usados en el mundo indus
 
 La mala noticia es que el PP es famoso por ser uno de los materiales más difíciles de imprimir en FDM. Su mayor reto no es la temperatura sino la adhesión: el PP es tan poco reactivo químicamente que casi nada se le pega bien. Necesitas superficies o adhesivos especiales y una calibración cuidadosa para que la primera capa quede bien adherida.
 
-Si ya tienes experiencia con PA o PETG y necesitas piezas que resistan químicos, sean muy livianas o requieran flexión cíclica prolongada, el [FiLL-3D PP](https://www.fill-3d.com/tienda/) es tu material.
-
----
-
-## Todo lo que Necesitas Saber
-
-### Características del material
-
-El PP es un polímero **semicristalino** con densidad muy baja (~0.93 g/cm³ — flota en agua), excelente **resistencia química** a ácidos, bases y la mayoría de solventes orgánicos, y una resistencia única a la **fatiga por flexión cíclica**: puede doblarse decenas de miles de veces en el mismo punto sin romperse. Su temperatura de servicio llega a ~100–110 °C bajo carga ligera.
+Si ya tienes experiencia con PA o PETG y necesitas piezas que resistan químicos, sean muy livianas o requieran flexión cíclica prolongada, el FiLL-3D PP, excelente **resistencia química** a ácidos, bases y la mayoría de solventes orgánicos, y una resistencia única a la **fatiga por flexión cíclica**: puede doblarse decenas de miles de veces en el mismo punto sin romperse. Su temperatura de servicio llega a ~100–110 °C bajo carga ligera.
 
 ### Parámetros de impresión recomendados — FiLL-3D PP
 
@@ -39,7 +31,7 @@ El PP es un polímero **semicristalino** con densidad muy baja (~0.93 g/cm³ —
 | Temperatura de boquilla | 240 °C | Estricto; ±5 °C afecta el flujo significativamente |
 | Temperatura de cama | 100 °C | Placa de ingeniería; o sin calefacción con adhesivo específico para PP |
 | Velocidad de impresión | 50-100 mm/s | Lento para minimizar warping |
-| Enfriamiento | 0 % (primeras 5 capas); luego 20–30 % máx | Material muy sensible al enfriamiento rápido |
+| Enfriamiento | 0 % (primeras 5 capas); luego 20–30 % máx. | Material muy sensible al enfriamiento rápido |
 | Retracción | 0.2 mm @ 40 mm/s | Pressure Advance K=0.085 |
 | Flujo (flow) | 100–105 %  |Calibrar con tu setup específico |
 | Cámara cerrada | Muy recomendada | El PP tiene warping severo en piezas grandes |
@@ -60,7 +52,7 @@ El PP es un polímero **semicristalino** con densidad muy baja (~0.93 g/cm³ —
 | Resistencia química excepcional | Adhesión a cama muy difícil sin preparación especial |
 | Liviano (densidad ~0.9 g/cm³) | Warping severo, especialmente en piezas planas y largas |
 | Resistencia única a fatiga por flexión cíclica | Requiere superficies o adhesivos específicos para PP |
-| Resistente al vapor y la humedad | Baja adhesión intercapa vs PLA o PETG |
+| Resistente al vapor y la humedad | Baja adhesión intercapa vs. PLA o PETG |
 | Temperatura de servicio moderada (~100 °C) | Poca compatibilidad con soportes de impresión estándar |
 
 ### Almacenamiento
@@ -88,6 +80,6 @@ El PP es el único material FDM que permite bisagras de película (living hinges
 ---
 
 ## También te puede interesar
-- [PA (Nylon) — Ficha de Material](./pa-nylon.md)
-- [Fibras Aditivas — Ficha de Material](./fibras-aditivas.md)
-- [Consejos de Impresión por Tipo de Material](../../consejos-de-impresion/por-tipo-de-material.md)
+- PA (Nylon) — Ficha de Material
+- Fibras Aditivas — Ficha de Material
+- Consejos de Impresión por Tipo de Material
