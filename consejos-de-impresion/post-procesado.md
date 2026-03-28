@@ -6,7 +6,7 @@ subseccion: ""
 material: ""
 tipo: "problemas"
 ultima_revision: "2026-03-25"
-estado: "borrador"
+estado: "terminado"
 ---
 
 # Post-Procesado de Impresiones 3D
@@ -35,9 +35,9 @@ La impresión FDM deja marcas de capa visibles, estructuras de soporte que hay q
 5. Lija suavemente la zona de contacto para eliminar imperfecciones.
 
 **Consejos y errores comunes:**
-- Con [FiLL-3D PLA](https://www.fill-3d.com/tienda/) los soportes se desprenden con facilidad si usas un separador de soportes (interface layer) en el slicer — actívalo siempre.
-- El [FiLL-3D PETG](https://www.fill-3d.com/tienda/) tiende a soldar el soporte a la pieza con más fuerza; reduce la densidad del soporte o aumenta la distancia Z de soporte en el slicer.
-- El [FiLL-3D PA](https://www.fill-3d.com/tienda/) y el [FiLL-3D PP](https://www.fill-3d.com/tienda/) son más flexibles — los soportes se pelan mejor que en PLA pero pueden dejar marcas más notorias; ten paciencia y usa el bisturí.
+- Con FiLL-3D PLA los soportes se desprenden con facilidad si usas un separador de soportes en el slicer — actívalo siempre.
+- El FiLL-3D PETG tiende a soldar el soporte a la pieza con más fuerza; reduce la densidad del soporte o aumenta la distancia Z de soporte en el slicer.
+- El FiLL-3D PA y el FiLL-3D PP son más flexibles — los soportes se pelan mejor que en PLA pero pueden dejar marcas más notorias; ten paciencia y usa el bisturí.
 - Error frecuente: retirar los soportes en caliente. La pieza todavía blanda se deforma o se arranca material donde no debe.
 
 ---
@@ -55,14 +55,15 @@ La impresión FDM deja marcas de capa visibles, estructuras de soporte que hay q
 **Proceso paso a paso:**
 1. Empieza con grano 120–220 para eliminar las líneas de capa más gruesas. Usa movimientos circulares y uniformes.
 2. Lija en húmedo a partir de grano 400 — el agua evita que el plástico se caliente y se atasque la lija.
-3. Aplica una capa de filler en spray si hay huecos o imperfecciones profundas. Deja secar el tiempo indicado y lija de nuevo con 400.
+3. Aplica una capa de masilla de relleno en spray si hay huecos o imperfecciones profundas. Deja secar el tiempo indicado y lija de nuevo con 400.
 4. Avanza progresivamente hasta 800–1200 si quieres una superficie casi espejada.
 5. Limpia bien con agua y paño seco antes del siguiente paso.
 
 **Consejos y errores comunes:**
-- El [FiLL-3D PLA](https://www.fill-3d.com/tienda/) lija bien pero genera calor con fricción — trabaja en sesiones cortas o en húmedo para evitar que el plástico ablande.
+- El FiLL-3D PLA lija bien pero genera calor con fricción — trabaja en sesiones cortas o en húmedo para evitar que el plástico ablande.
 - PETG y PA tienen mayor resistencia al lijado; necesitan más pasadas con granos intermedios antes de avanzar.
-- El [FiLL-3D PPCF](https://www.fill-3d.com/tienda/) (PP con fibra de carbono) libera partículas de fibra al lijar — usa mascarilla y trabaja en un espacio ventilado.
+- El FiLL-3D PPCF (PP con fibra de carbono) libera partículas de fibra al lijar — usa mascarilla y trabaja en un espacio ventilado.
+- Imprime con al menos 3 paredes cuando planees lijar la pieza — así tendrás suficiente material para remover y mejorar el acabado sin comprometer la resistencia estructural.
 - Error frecuente: saltarse granos. Ir de 120 a 800 directamente solo profundiza los rayones en lugar de eliminarlos.
 
 ---
@@ -89,6 +90,7 @@ La impresión FDM deja marcas de capa visibles, estructuras de soporte que hay q
 **Consejos y errores comunes:**
 - El cianoacrilato funciona muy bien con PLA y PETG; para PA y PP el epoxy de dos partes da mejores resultados porque estas superficies son menos receptivas al cianoacrilato.
 - El [FiLL-3D PP](https://www.fill-3d.com/tienda/) es uno de los materiales más difíciles de pegar — su baja energía superficial repele casi todos los adhesivos. Usa un imprimante adhesivo específico para polipropileno o considera diseñar uniones mecánicas (encastres, tornillos).
+- Si necesitas rellenar un hueco o imperfección en la unión, mezcla cianoacrilato con bicarbonato de sodio — el bicarbonato actúa como relleno y la mezcla cura casi al instante formando una masa dura que se puede lijar.
 - Error frecuente: aplicar demasiado adhesivo. El exceso no mejora la unión, llena las líneas de capa y mancha la superficie.
 
 ---
@@ -106,14 +108,14 @@ La impresión FDM deja marcas de capa visibles, estructuras de soporte que hay q
 **Proceso paso a paso:**
 1. Asegúrate de que la pieza esté limpia, seca y lijada al nivel de acabado deseado.
 2. Aplica una capa de imprimante para plásticos a 30–40 cm de distancia, con pasadas uniformes. Deja secar 20–30 minutos.
-3. Lija suavemente con 400 para eliminar rugosidad del primer. Limpia el polvo.
+3. Lija suavemente con 400 para eliminar rugosidad del imprimante. Limpia el polvo.
 4. Aplica la pintura de color en capas finas (2–3 manos). Espera entre cada capa.
 5. Finaliza con una capa de barniz (mate, satinado o brillante) para sellar y proteger.
 
 **Consejos y errores comunes:**
 - El imprimante es obligatorio — sin él la pintura no adhiere bien al plástico y se descascarilla con el uso.
-- Los colores oscuros del [FiLL-3D PLA](https://www.fill-3d.com/tienda/) pueden traslucir bajo pinturas claras; aplica un imprimante blanco primero si quieres colores pastel o blancos sobre filamento oscuro.
-- El PETG tiene una superficie ligeramente más lisa que el PLA — el lijado previo con 220 es especialmente importante para que el primer agarre.
+- Los colores oscuros del FiLL-3D PLA pueden traslucir bajo pinturas claras; aplica un imprimante blanco primero si quieres colores pastel o blancos sobre filamento oscuro.
+- El PETG tiene una superficie ligeramente más lisa que el PLA — el lijado previo con 220 es especialmente importante para que el imprimante se adhiera correctamente.
 - Error frecuente: aplicar capas gruesas para cubrir más rápido. Genera escurridos y secado disparejo. Siempre capas delgadas y múltiples.
 
 ---
@@ -164,8 +166,8 @@ La impresión FDM deja marcas de capa visibles, estructuras de soporte que hay q
 5. Retira el soldador y deja enfriar sin mover la pieza durante 30–60 segundos.
 
 **Consejos y errores comunes:**
-- El [FiLL-3D PLA](https://www.fill-3d.com/tienda/) acepta insertos con facilidad por su baja temperatura de trabajo; el [FiLL-3D PETG](https://www.fill-3d.com/tienda/) da resultados aún mejores porque es más tenaz y las paredes se deforman menos.
-- Para [FiLL-3D PA](https://www.fill-3d.com/tienda/) y [FiLL-3D PP](https://www.fill-3d.com/tienda/), sube la temperatura del soldador 10–20 °C por encima de lo que usarías con PLA — estos materiales necesitan más calor para fluir correctamente.
+- El FiLL-3D PLA acepta insertos con facilidad por su baja temperatura de trabajo; el FiLL-3D PETG da resultados aún mejores porque es más tenaz y las paredes se deforman menos.
+- Para FiLL-3D PA y FiLL-3D PP, sube la temperatura del soldador 10–20 °C por encima de lo que usarías con PLA — estos materiales necesitan más calor para fluir correctamente.
 - Error frecuente: hundir el inserto demasiado rápido. Si empujas con fuerza, el inserto queda torcido y no hay forma de corregirlo sin dañar la pieza. Velocidad lenta y presión constante.
 - Imprime el agujero piloto con orientación de capas perpendicular a la dirección de inserción para maximizar la resistencia al arranque.
 
@@ -190,8 +192,8 @@ La impresión FDM deja marcas de capa visibles, estructuras de soporte que hay q
 6. Lija suavemente con 400 entre capas si deseas aplicar una segunda mano.
 
 **Consejos y errores comunes:**
-- Esta técnica funciona especialmente bien con [FiLL-3D PLA](https://www.fill-3d.com/tienda/) y [FiLL-3D PETG](https://www.fill-3d.com/tienda/) para hacer contenedores, floreros, macetas y piezas que van a estar en contacto con agua.
-- El [FiLL-3D PP](https://www.fill-3d.com/tienda/) ya es naturalmente resistente a muchos líquidos y químicos por su naturaleza como poliolefina — a veces no necesita sellado adicional para aplicaciones de contacto con agua.
+- Esta técnica funciona especialmente bien con FiLL-3D PLA y FiLL-3D PETG para hacer contenedores, floreros, macetas y piezas que van a estar en contacto con agua.
+- El FiLL-3D PP ya es naturalmente resistente a muchos líquidos y químicos por su naturaleza como poliolefina — a veces no necesita sellado adicional para aplicaciones de contacto con agua.
 - El PETG impreso con baja porosidad (infill alto + paredes gruesas) puede ser prácticamente impermeable sin sellado extra; la resina epoxy suma resistencia mecánica y un acabado más liso.
 - Error frecuente: aplicar la resina sobre superficie sucia o con grasa. La resina no adhiere y se desprende. La preparación de la superficie es el paso más importante.
 

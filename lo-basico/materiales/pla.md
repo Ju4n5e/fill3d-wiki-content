@@ -59,6 +59,8 @@ El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad
 
 > El PLA Turbo se beneficia especialmente de boquillas de 0.6 mm o más cuando se imprimen capas gruesas a alta velocidad.
 
+![Voron Design Cube impreso en PLA Turbo FiLL-3D](../../../assets/images/materiales-reference/PLA-turbo-voron.jpg)
+
 ### Aplicaciones ideales
 
 - Prototipos y modelos conceptuales
@@ -67,6 +69,8 @@ El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad
 - Accesorios para el hogar y la oficina
 - Proyectos educativos y de aprendizaje
 - Modelos arquitectónicos y maquetas
+
+![Cali Dragon impreso en PLA Turbo FiLL-3D](../../../assets/images/materiales-reference/PLA-turbo-cali-dragon.jpg)
 
 ### Ventajas y limitaciones
 

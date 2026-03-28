@@ -54,6 +54,8 @@ En el catálogo de FiLL-3D esta categoría está representada por el PPCF mejora
 | Mantiene las propiedades del polímero base | Mayor costo que el material base |
 | Excelente para piezas estructurales livianas | Resistencia en Z significativamente menor que en XY |
 
+![Voron Design Cube impreso en PPCF FiLL-3D — acabado superficial mate característico](../../../assets/images/materiales-reference/PPCF-voron.jpg)
+
 ### Almacenamiento
 
 Seguir el protocolo del polímero base correspondiente. Para el PPCF, aunque el PP base no es muy higroscópico, las fibras pueden retener humedad superficial. Guardar sellado con sílica gel en todo momento. Secar a **60 °C por 4 horas** antes de sesiones largas o impresiones críticas.
@@ -85,6 +87,6 @@ Los filamentos con fibra tienen reología diferente al polímero base: la viscos
 ---
 
 ## También te puede interesar
-- PP — Ficha de Material
-- PA (Nylon) — Ficha de Material
-- Consejos de Impresión por Tipo de Material
+- [PP — Ficha de Material](./pp.md)
+- [PA (Nylon) — Ficha de Material](./pa-nylon.md)
+- [Consejos de Impresión por Tipo de Material](../../consejos-de-impresion/por-tipo-de-material.md)

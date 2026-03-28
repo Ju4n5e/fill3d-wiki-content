@@ -101,5 +101,6 @@ Los slicers avanzados permiten insertar scripts de post-procesado en el G-code: 
 
 ## También te puede interesar
 - [Introducción a la Impresión 3D](./introduccion-impresion-3d.md)
+- [Calibración de Filamento con Orca Slicer](calibracion/metodologia-orca.md)
 - [Consejos por Tipo de Material](../consejos-de-impresion/por-tipo-de-material.md)
 - [Problemas Comunes de Impresión](../consejos-de-impresion/problemas-comunes.md)

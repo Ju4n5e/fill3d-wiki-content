@@ -48,7 +48,7 @@ Las impresoras **CoreXY** modernas de alta velocidad suelen usar accionamiento d
 
 ### Variantes avanzadas
 
-- **Doble engranaje (dual-gear):** Dos engranajes dentados atrapan el filamento desde ambos lados, reduciendo el deslizamiento y mejorando el control del flujo. Ideal para materiales que requieren precisión como el [PPCF](https://www.fill-3d.com/tienda/).
+- **Doble engranaje (dual-gear):** Dos engranajes dentados atrapan el filamento desde ambos lados, reduciendo el deslizamiento y mejorando el control del flujo. Ideal para materiales que requieren precisión como el PPCF.
 - **Reductores orbitales:** Incorporan una caja reductora compacta para generar alto torque en un paquete liviano.
 - **Alta temperatura con refrigeración líquida:** Permiten temperaturas de boquilla superiores a 400 °C para materiales de ingeniería como PEEK o PEI.
 
@@ -79,11 +79,11 @@ Los E-steps solo necesitan recalibrarse en impresoras antiguas o de construcció
 
 ### Retracción: valores de partida según extrusor
 
-El punto de partida más seguro es 0.5–1.5 mm para accionamiento directo y 4–6 mm para Bowden, ambos a 35–45 mm/s. Pero el valor final depende del material: el [PLA Turbo](https://www.fill-3d.com/tienda/) con Pressure Advance activo puede operar con retracciones de apenas 0.1 mm en directo, mientras que PA en Bowden puede necesitar hasta 7 mm. Nunca copies valores de otro usuario sin conocer su tipo de extrusor primero.
+El punto de partida más seguro es 0.5–1.5 mm para accionamiento directo y 4–6 mm para Bowden, ambos a 35–45 mm/s. Pero el valor final depende del material: el PLA Turbo con Pressure Advance activo puede operar con retracciones de apenas 0.1 mm en directo, mientras que PA en Bowden puede necesitar hasta 7 mm. Nunca copies valores de otro usuario sin conocer su tipo de extrusor primero.
 
 ### Desgaste de engranajes con materiales abrasivos
 
-El [FiLL-3D PPCF](https://www.fill-3d.com/tienda/) (PP con fibra de carbono) no solo desgasta la boquilla: las partículas abrasivas también erosionan el engranaje de arrastre a lo largo del tiempo, especialmente si es de acero inoxidable estándar. Para impresión frecuente con composites, considera engranajes de acero endurecido o nitruro (DLC-coated). Inspeccionalos visualmente cada 100–200 horas de impresión con abrasivos.
+El FiLL-3D PPCF (PP con fibra de carbono) no solo desgasta la boquilla: las partículas abrasivas también erosionan el engranaje de arrastre a lo largo del tiempo, especialmente si es de acero inoxidable estándar. Para impresión frecuente con composites, considera engranajes de acero endurecido o nitruro (DLC-coated). Inspeccionalos visualmente cada 100–200 horas de impresión con abrasivos.
 
 > 💡 **Nota técnica:** El Adaptive Pressure Advance (disponible en Orca Slicer / Bambu Studio) modela la respuesta dinámica del extrusor en función de la velocidad de cambio, reduciendo el error de flujo en aceleraciones bruscas sin necesidad de afinar la retracción para cada velocidad manualmente.
 

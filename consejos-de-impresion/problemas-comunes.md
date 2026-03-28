@@ -199,8 +199,6 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 ---
 
 ## También te puede interesar
-- Guía de Impresión — PLA
-- Guía de Impresión — PETG
-- Comparativa de Materiales
-- Post-Procesado 
-- Glosario Técnico 
+- [Post-Procesado](./post-procesado.md)
+- [Referencia Técnica](../referencia-tecnica/index.md)
+- [Materiales de Impresión 3D](../lo-basico/materiales-impresion-3d.md)

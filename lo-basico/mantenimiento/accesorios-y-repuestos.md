@@ -51,6 +51,8 @@ Piénsalo como el botiquín de primeros auxilios de tu impresora: no lo usas tod
 
 ### Repuestos recomendados
 
+![Explosión isométrica del hotend: boquilla, bloque de calor, tubo PTFE, cartucho calefactor, termistor y disipador](../../assets/images/accesorios-y-repuestos/hotend-exploded.png)
+
 | Repuesto | Cuándo tenerlo | Notas |
 |---|---|---|
 | **Boquillas de latón (0.4 mm)** | Siempre — son consumibles frecuentes | Stock de 3–5 unidades; cámbialas cada 1–3 meses |
@@ -98,6 +100,6 @@ Una ventaja única de tener una impresora 3D es que puedes fabricar tus propios 
 ---
 
 ## También te puede interesar
-- Mantenimiento de la Impresora
-- Extrusores
-- Boquillas
+- [Mantenimiento de la Impresora](./mantenimiento.md)
+- [Extrusores](../partes-impresora/extrusores.md)
+- [Boquillas](../partes-impresora/boquillas.md)

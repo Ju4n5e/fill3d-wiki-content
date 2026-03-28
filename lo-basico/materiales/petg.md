@@ -32,6 +32,8 @@ Piénsalo como una versión más resistente del PLA: necesita un poco más de at
 
 El PETG combina buena **resistencia mecánica**, mayor flexibilidad que el PLA y una **resistencia al calor** superior (~80 °C bajo carga ligera). Es semitransparente en su estado natural, lo que lo hace popular para protectores, difusores de luz y envases. Resiste bien la humedad ambiental y es generalmente considerado seguro para contacto con alimentos, aunque esto depende del colorante específico y de las condiciones de impresión.
 
+![Voron Design Cube impreso en PETG FiLL-3D](../../../assets/images/materiales-reference/PETG-voron.jpg)
+
 ### Parámetros de impresión recomendados — FiLL-3D PETG
 
 | Parámetro | Valor recomendado | Notas |
@@ -52,6 +54,8 @@ El PETG combina buena **resistencia mecánica**, mayor flexibilidad que el PLA y
 - Difusores de luz (por su semitransparencia natural)
 - Accesorios de cocina (verificar compatibilidad del colorante)
 - Componentes de impresoras 3D (extrusor, ductos de ventilación)
+
+![Cali Dragon impreso en PETG FiLL-3D](../../../assets/images/materiales-reference/PETG-cali-dragon.jpg)
 
 ### Ventajas y limitaciones
 

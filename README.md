@@ -20,22 +20,31 @@ El wiki está escrito en español (Colombia) y cubre desde los conceptos básico
 ```
 content/
 │
-├── index.md                                    📝 Página de inicio
+├── index.md                                    ✅ Página de inicio
 │
 ├── lo-basico/
-│   ├── index.md                                📝 Índice de sección
+│   ├── index.md                                ✅ Índice de sección
 │   ├── introduccion-impresion-3d.md            ✅
 │   ├── materiales-impresion-3d.md              ✅
 │   ├── impresoras-3d.md                        ✅
 │   ├── slicers.md                              ✅
-│   ├── aplicaciones.md                         📝
-│   ├── datos-curiosos.md                       📝
+│   ├── aplicaciones.md                         ✅
+│   ├── datos-curiosos.md                       ✅
 │   ├── materiales/
 │   │   ├── pla.md                              ✅
 │   │   ├── petg.md                             ✅
 │   │   ├── pa-nylon.md                         ✅
 │   │   ├── pp.md                               ✅
 │   │   └── fibras-aditivas.md                  ✅
+│   ├── primeros-pasos/
+│   │   ├── index.md                            ✅
+│   │   ├── impresora.md                        ✅
+│   │   └── material.md                         ✅
+│   ├── calibracion/
+│   │   ├── index.md                            ✅
+│   │   ├── cubo-de-calibracion.md              ✅
+│   │   ├── benchy.md                           ✅
+│   │   └── metodologia-orca.md                 ✅
 │   ├── partes-impresora/
 │   │   ├── extrusores.md                       ✅
 │   │   ├── boquillas.md                        ✅
@@ -45,35 +54,43 @@ content/
 │       └── accesorios-y-repuestos.md           ✅
 │
 ├── consejos-de-impresion/
-│   ├── index.md                                📝 Índice de sección
+│   ├── index.md                                ✅ Índice de sección
 │   ├── por-tipo-de-material.md                 ✅
 │   ├── problemas-comunes.md                    ✅
-│   ├── post-procesado.md                       📝
-│   └── ciencia-de-materiales.md               📝
+│   └── post-procesado.md                       ✅
 │
-└── glosario/
-    └── index.md                                📝 Glosario técnico
+├── referencia-tecnica/
+│   ├── index.md                                ✅ Glosario técnico
+│   └── ciencia-de-materiales.md               ✅
+│
+└── assets/
+    └── images/
+        ├── calibracion/
+        │   ├── cali-cube.webp                  🖼️ Cubo XYZ 20mm
+        │   └── voron-cube.webp                 🖼️ Voron Design Cube
+        ├── materiales-reference/               🖼️ Referencias de material impreso
+        │   ├── PA-benchy.jpg
+        │   ├── PA-voron.jpg
+        │   ├── PETG-cali-dragon.jpg
+        │   ├── PETG-voron.jpg
+        │   ├── PLA-cali-dragon.jpg
+        │   ├── PLA-turbo-benchy.jpg
+        │   ├── PLA-turbo-cali-dragon.jpg
+        │   ├── PLA-turbo-voron.jpg
+        │   ├── PLA-voron.jpg
+        │   ├── PP-benchy.jpg
+        │   ├── PP-voron.jpg
+        │   └── PPCF-voron.jpg
+        ├── primeros-pasos-impresora/
+        ├── introduccion-impresion-3d/
+        ├── impresoras-3d/
+        └── accesorios-y-repuestos/
 ```
 
 ---
 
 ## Progreso
 
-**24 / 24 archivos creados** — 16 terminados · 8 en borrador · 0 por crear
+**31 / 31 archivos creados** — 31 terminados · 0 en borrador · 0 por crear
 
-### Pendiente de revisión editorial (borradores)
-
-Los siguientes archivos están completos en contenido y valores técnicos verificados, pero aún no han pasado revisión editorial final:
-
-| Archivo | Notas |
-|---|---|
-| `index.md` | Página de inicio — revisar tono y links |
-| `lo-basico/index.md` | Índice de sección |
-| `lo-basico/aplicaciones.md` | — |
-| `lo-basico/datos-curiosos.md` | — |
-| `consejos-de-impresion/index.md` | Índice de sección |
-| `consejos-de-impresion/post-procesado.md` | — |
-| `consejos-de-impresion/ciencia-de-materiales.md` | — |
-| `glosario/index.md` | Revisar completitud de términos |
-
-Una vez aprobados, cambiar `estado: "borrador"` a `estado: "terminado"` en el frontmatter de cada archivo.
+**Entrega final** — 2026-03-27 · Revisión editorial completa (R04/R08)

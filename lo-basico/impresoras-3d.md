@@ -24,6 +24,8 @@ El proceso empieza en tu computador: diseñas o descargas una figura en 3D, la p
 
 Piénsalo como una pistola de silicona de altísima precisión montada sobre un brazo robótico: el mecanismo mueve la boquilla en el lugar exacto que el programa le indica, y el plástico se enfría rápido y se adhiere a la capa anterior. Al final del proceso tienes un objeto físico que horas antes solo existía en pantalla.
 
+![Tres arquitecturas de impresora FDM: Cartesiana, CoreXY y Delta en perspectiva isométrica](../assets/images/impresoras-3d/printer-architectures.png)
+
 ---
 
 ## Todo lo que Necesitas Saber
@@ -103,6 +105,6 @@ Las tolerancias reales de una pieza impresa no dependen solo de la resolución d
 ---
 
 ## También te puede interesar
-- Extrusores
-- Boquillas
-- Camas de Impresión
+- [Extrusores](partes-impresora/extrusores.md)
+- [Boquillas](partes-impresora/boquillas.md)
+- [Camas de Impresión](partes-impresora/camas-de-impresion.md)

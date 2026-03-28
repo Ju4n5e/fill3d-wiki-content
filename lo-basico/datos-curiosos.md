@@ -6,7 +6,7 @@ subseccion: ""
 material: ""
 tipo: "conceptual"
 ultima_revision: "2026-03-25"
-estado: "borrador"
+estado: "terminado"
 ---
 
 # Datos Curiosos de la Impresión 3D
@@ -33,7 +33,7 @@ El punto de quiebre llegó alrededor de 2009–2010, cuando vencieron algunas pa
 
 ### Records e hitos
 
-El mundo de la impresión 3D está lleno de récords que rompen expectativas. Se han impreso casas completas de concreto en menos de 24 horas usando brazos robóticos de gran escala. La NASA ha probado componentes de motor fabricados con impresión 3D metálica, y la industria médica ya implanta huesos, cartílagos y estructuras de titanio impresas a medida para pacientes reales — implantes craneales, cages espinales y prótesis de cadera impresos en titanio son hoy parte de la práctica clínica establecida.
+El mundo de la impresión 3D está lleno de récords que rompen expectativas. Se han impreso casas completas de concreto en menos de 24 horas usando brazos robóticos de gran escala. La NASA ha probado componentes de motor fabricados con impresión 3D metálica, y la industria médica ya implanta huesos, cartílagos y estructuras de titanio impresas a medida para pacientes reales — implantes craneales, jaulas espinales y prótesis de cadera impresos en titanio son hoy parte de la práctica clínica establecida.
 
 En el otro extremo de la escala, investigadores han logrado imprimir estructuras con resoluciones submicrométricas (inferiores a 1 µm) usando tecnología de dos fotones — invisible al ojo humano, pero perfectamente funcional para aplicaciones en microfluídica y óptica. La misma tecnología que te permite hacer un llavero personalizado puede, en versión industrial, cambiar la medicina o la manufactura aeroespacial.
 
@@ -57,7 +57,7 @@ La adopción de impresión 3D en Colombia y el resto de la región ha crecido de
 
 ### Velocidad: dónde está el límite real hoy
 
-Las impresoras de la generación actual (CoreXY de cinemática acelerada) alcanzan velocidades de impresión por encima de 500 mm/s con aceleraciones de 10 000–20 000 mm/s². El cuello de botella ya no es el movimiento mecánico, sino la capacidad del hotend de fundir y extruir material a esa tasa volumétrica. Un filamento como el [PLA Turbo](https://www.fill-3d.com/tienda/) está formulado específicamente para mantener cohesión y adherencia de capas a estas velocidades; en un PLA estándar, los mismos parámetros generan underextrusion o delaminación. El próximo límite práctico apunta a la cristalización del polímero en capas: a velocidades muy altas, el tiempo de enfriamiento entre capas se comprime hasta afectar la adhesión interlayer de forma medible.
+Las impresoras de la generación actual (CoreXY de cinemática acelerada) alcanzan velocidades de impresión por encima de 500 mm/s con aceleraciones de 10 000–20 000 mm/s². El cuello de botella ya no es el movimiento mecánico, sino la capacidad del hotend de fundir y extruir material a esa tasa volumétrica. Un filamento como el [PLA Turbo](https://www.fill-3d.com/tienda/) está formulado específicamente para mantener cohesión y adherencia de capas a estas velocidades; en un PLA estándar, los mismos parámetros generan subextrusión o delaminación. El próximo límite práctico apunta a la cristalización del polímero en capas: a velocidades muy altas, el tiempo de enfriamiento entre capas se comprime hasta afectar la adhesión entre capas de forma medible.
 
 ### Resolución de capa: límites físicos del FDM
 

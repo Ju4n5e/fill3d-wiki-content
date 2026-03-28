@@ -83,6 +83,6 @@ El sensor de temperatura de la cama mide en el calefactor, no en la superficie d
 ---
 
 ## También te puede interesar
-- Extrusores
-- Boquillas
-- Mantenimiento de la Impresora
+- [Extrusores](../extrusores.md)
+- [Boquillas](../boquillas.md)
+- [Mantenimiento de la Impresora](../../mantenimiento/mantenimiento.md)

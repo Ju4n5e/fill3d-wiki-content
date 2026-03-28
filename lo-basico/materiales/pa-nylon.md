@@ -32,6 +32,8 @@ Si vienes del PLA, el salto al PA es significativo pero vale la pena cuando el p
 
 El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: alta **resistencia al impacto**, buena **resistencia a la fatiga** y muy bajo coeficiente de fricción superficial — ideal para piezas en contacto y movimiento. Existen varios tipos; el **[FiLL-3D PA](https://www.fill-3d.com/tienda/) es PA12**, la variante con menor absorción de humedad y menor warping versus el PA6, lo que lo hace el más adecuado para impresión FDM de escritorio.
 
+![Voron Design Cube impreso en PA (Nylon) FiLL-3D](../../../assets/images/materiales-reference/PA-voron.jpg)
+
 ### Parámetros de impresión recomendados — FiLL-3D PA
 
 | Parámetro | Valor recomendado | Notas |
@@ -52,6 +54,8 @@ El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: 
 - Piezas expuestas a fricción prolongada
 - Accesorios industriales y de maquinaria ligera
 - Prototipos funcionales de alta resistencia
+
+![Benchy impreso en PA (Nylon) FiLL-3D](../../../assets/images/materiales-reference/PA-benchy.jpg)
 
 ### Ventajas y limitaciones
 

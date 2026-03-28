@@ -6,7 +6,7 @@ subseccion: ""
 material: ""
 tipo: "navegacion"
 ultima_revision: "2026-03-25"
-estado: "borrador"
+estado: "terminado"
 ---
 
 # Índice — Consejos de Impresión
@@ -20,7 +20,6 @@ Imprimir bien no es cuestión de suerte: es entender tus materiales, conocer tu 
 - [Por Tipo de Material](por-tipo-de-material.md) — parámetros y consejos específicos para cada familia de filamento
 - [Problemas Comunes](problemas-comunes.md) — diagnóstico y solución de los problemas más frecuentes en impresión FDM
 - [Post-Procesado](post-procesado.md) — cómo mejorar tus piezas después de imprimir: lijado, pintura, insertos, sellado
-- [Ciencia de Materiales](ciencia-de-materiales.md) — la física y química detrás de los filamentos: Tg, higroscopicidad, anisotropía
 
 ---
 
@@ -30,4 +29,4 @@ Imprimir bien no es cuestión de suerte: es entender tus materiales, conocer tu 
 
 ## También te puede interesar
 - [Lo Básico](../lo-basico/index.md)
-- [Glosario Técnico](../glosario/index.md)
+- [Referencia Técnica](../referencia-tecnica/index.md)

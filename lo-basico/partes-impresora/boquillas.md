@@ -64,7 +64,7 @@ Dos propiedades del material de la boquilla determinan todo lo demás: la **dure
 |---|---|
 | PLA, PETG, PA (impresión general) | Latón 0.4 mm |
 | Miniaturas y modelos de detalle | Acero endurecido 0.2–0.3 mm |
-| [FiLL-3D PPCF](https://www.fill-3d.com/tienda/) o fibra de vidrio | Acero endurecido 0.4–0.6 mm |
+| FiLL-3D PPCF o fibra de vidrio | Acero endurecido 0.4–0.6 mm |
 | Prototipos rápidos de gran volumen | Latón o acero endurecido 0.6–0.8 mm |
 | Uso con materiales de temperatura alta (>300 °C) | Acero inoxidable o coated |
 
@@ -86,11 +86,11 @@ La regla de altura de capa ≤ 80% del diámetro existe porque extrudir una lín
 
 ### El problema del PPCF con boquillas de latón
 
-El [FiLL-3D PPCF](https://www.fill-3d.com/tienda/) puede destruir una boquilla de latón en una sola sesión de impresión de 3–4 horas. Las partículas de fibra de carbono actúan como papel de lija a 300 °C. La única opción viable es acero endurecido (o superior). Después de cambiar a endurecido, recalibra el flujo: la menor conductividad térmica del acero puede requerir subir 5–10 °C respecto al perfil de latón para mantener la misma viscosidad de fundido.
+El FiLL-3D PPCF puede destruir una boquilla de latón en una sola sesión de impresión de 3–4 horas. Las partículas de fibra de carbono actúan como papel de lija a 300 °C. La única opción viable es acero endurecido (o superior). Después de cambiar a endurecido, recalibra el flujo: la menor conductividad térmica del acero puede requerir subir 5–10 °C respecto al perfil de latón para mantener la misma viscosidad de fundido.
 
 ### Boquillas de alto flujo para impresión a velocidad
 
-Las boquillas con geometría CHT (Core Heating Technology) o cámaras de fusión extendidas (Volcano, Super Volcano) permiten caudales volumétricos de 30–60 mm³/s frente a los 15–20 mm³/s de una boquilla estándar. Son indispensables para aprovechar impresoras CoreXY rápidas imprimiendo [PLA Turbo](https://www.fill-3d.com/tienda/) a velocidades superiores a 200 mm/s. El trade-off: el tiempo de purga al cambiar de material es mayor porque hay más volumen de material en la zona de fusión.
+Las boquillas con geometría CHT (Core Heating Technology) o cámaras de fusión extendidas (Volcano, Super Volcano) permiten caudales volumétricos de 30–60 mm³/s frente a los 15–20 mm³/s de una boquilla estándar. Son indispensables para aprovechar impresoras CoreXY rápidas imprimiendo PLA Turbo a velocidades superiores a 200 mm/s. El trade-off: el tiempo de purga al cambiar de material es mayor porque hay más volumen de material en la zona de fusión.
 
 > **Advertencia con materiales compuestos:** No usar geometría CHT con filamentos que contengan fibras (PPCF, fibra de vidrio, metal-fill). El diseño de núcleo dividido de la CHT reduce el área de flujo efectiva, lo que aumenta la probabilidad de que las fibras generen taponamientos. Para compuestos, usar siempre boquilla de orificio abierto estándar en acero endurecido.
 

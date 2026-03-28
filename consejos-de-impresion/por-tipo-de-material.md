@@ -92,7 +92,7 @@ más los tips de uso que no caben en un archivo de slicer. Imprime con confianza
 ---
 
 ## También te puede interesar
-- Materiales de Impresión 3D
-- PA (Nylon) — Ficha de Material
-- Problemas Comunes de Impresión
-- Post-Procesado
+- [Materiales de Impresión 3D](../lo-basico/materiales-impresion-3d.md)
+- [PA (Nylon) — Ficha de Material](../lo-basico/materiales/pa-nylon.md)
+- [Problemas Comunes de Impresión](./problemas-comunes.md)
+- [Post-Procesado](./post-procesado.md)

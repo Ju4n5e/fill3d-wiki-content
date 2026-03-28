@@ -24,6 +24,8 @@ El proceso se llama **FDM** (Fused Deposition Modeling, o Modelado por Deposici�
 
 Lo que hace especial a la impresión 3D FDM es que puedes fabricar casi cualquier forma que puedas diseñar en un computador — sin moldes, sin herramientas especiales, sin fábrica. Desde una figura decorativa hasta una pieza de repuesto para un electrodoméstico o un prototipo funcional: si lo puedes modelar, lo puedes imprimir.
 
+![Corte transversal del hotend FDM: filamento sólido, zona de fusión y depósito de capas](../assets/images/introduccion-impresion-3d/fdm-process.png)
+
 ---
 
 ## Todo lo que Necesitas Saber
@@ -86,6 +88,6 @@ La presión dentro del hotend no es instantánea: existe un retraso entre el mov
 ---
 
 ## También te puede interesar
-- Materiales de Impresión 3D
-- Impresoras 3D
-- Slicers (Laminadores)
+- [Materiales de Impresión 3D](materiales-impresion-3d.md)
+- [Impresoras 3D](impresoras-3d.md)
+- [Slicers (Laminadores)](slicers.md)

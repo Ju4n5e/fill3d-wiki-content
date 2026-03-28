@@ -6,7 +6,7 @@ subseccion: ""
 material: ""
 tipo: "conceptual"
 ultima_revision: "2026-03-25"
-estado: "borrador"
+estado: "terminado"
 ---
 
 # Aplicaciones de la Impresión 3D
@@ -61,11 +61,11 @@ La elección del material depende de la aplicación. El PLA estándar de FiLL-3D
 
 ### Geometrías sin restricciones de manufactura substractiva
 
-La impresión 3D elimina las restricciones de ángulo de herramienta del mecanizado CNC y del moldeo por inyección. Esto permite canales de refrigeración conformes, estructuras de celosía interna (lattice) y partes con socavados que serían imposibles o prohibitivamente costosas con otros procesos. Al diseñar para FFF, tener presente que los voladizos (overhangs) superiores a 45–50° requieren soporte o rediseño de orientación, lo que introduce su propio compromiso de post-procesado.
+La impresión 3D elimina las restricciones de ángulo de herramienta del mecanizado CNC y del moldeo por inyección. Esto permite canales de refrigeración conformes, estructuras de celosía interna (lattice) y partes con socavados que serían imposibles o prohibitivamente costosas con otros procesos. Al diseñar para FFF, tener presente que los voladizos (overhangs) superiores a 55–65° por lo general (hasta 80° en máquinas con muy buena refrigeración) requieren soporte o rediseño de orientación, lo que introduce su propio compromiso de post-procesado.
 
 ### Selección de material por requisito funcional
 
-El error más común es elegir material por precio o disponibilidad en lugar de por requisito. Para piezas expuestas a UV o humedad sostenida, PLA sin estabilizadores degradará propiedades mecánicas en semanas. PETG tolera mejor ambientes húmedos pero tiene menor rigidez que PA. PP ofrece resistencia química y fatiga excepcionales, pero su baja energía superficial exige cama tratada y enclosure para controlar warping. PPCF combina rigidez de la fibra con la resistencia química del PP, pero requiere boquilla endurecida (hardened steel o similar).
+El error más común es elegir material por precio o disponibilidad en lugar de por requisito. Por ejemplo, el PLA es ideal para fabricar modelos conceptuales, prototipos con alto detalle o piezas de bajo desgaste. No obstante, para piezas expuestas a UV o humedad sostenida, el PLA sin estabilizadores degradará sus propiedades mecánicas en semanas. PETG tolera mejor ambientes húmedos pero tiene menor rigidez que PA. PP ofrece resistencia química y fatiga excepcionales, pero su baja energía superficial exige cama tratada y enclosure para controlar warping. PPCF combina rigidez de la fibra con la resistencia química del PP, pero requiere boquilla endurecida (hardened steel o similar).
 
 ### Limitaciones de volumen de construcción frente a manufactura tradicional
 
