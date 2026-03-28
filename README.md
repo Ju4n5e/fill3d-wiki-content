@@ -94,3 +94,13 @@ content/
 **31 / 31 archivos creados** — 31 terminados · 0 en borrador · 0 por crear
 
 **Entrega final** — 2026-03-27 · Revisión editorial completa (R04/R08)
+
+---
+
+## Propuestas
+
+La carpeta `propuestas/` contiene páginas en fase de propuesta o prototipo, no incluidas en el sitemap oficial. Los archivos aquí presentes están sujetos a cambios antes de ser incorporados al árbol principal.
+
+| Archivo | Descripción | Estado |
+|---|---|---|
+| `guia-re-fill.md` | Guía de carga del sistema Re-Fill PLA (8 pasos) | 📝 Borrador |
