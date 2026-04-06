@@ -37,13 +37,41 @@ La clave de la metodología de Orca es el **orden**: cada test parte de que el a
 
 **Cómo leer el resultado:** Observa cada sección de la torre e identifica la temperatura más baja que produzca buena adhesión entre capas sin generar stringing excesivo. Priorizar la temperatura más baja que funcione bien ayuda a reducir el babeo y alargar la vida del hotend.
 
+En la figura 1 puedes ver la torre completa (Fig. 1a), la primera sección con buen rendimiento a 240 °C (Fig. 1b) — por debajo de esta temperatura se corre el riesgo de reducir las propiedades mecánicas de la pieza — y el stringing severo que aparece cuando la temperatura es excesiva (Fig. 1c).
+
+<div style="display: flex; gap: 8px; margin: 1em 0;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_temperatura/calib_temp_tower.jpg" alt="Torre de temperatura completa, secciones de 230 °C a 280 °C" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 1a — Torre completa (230 °C–280 °C)</em></figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_temperatura/calib_taget_temp.jpg" alt="Sección de temperatura óptima a 240 °C con mínimo stringing" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 1b — Temperatura óptima (~240 °C): primera sección con buen rendimiento</em></figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_temperatura/calib_over_temp.jpg" alt="Secciones de temperatura excesiva con stringing severo entre piezas" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 1c — Temperatura excesiva: stringing severo</em></figcaption>
+  </figure>
+</div>
+
 ### 2. Max Volumetric Speed (Flujo volumétrico máximo)
 
 **Qué mide:** La velocidad máxima a la que el hotend puede fundir y empujar filamento antes de que aparezca subextrusión. Es un límite físico del equipo con ese material específico, no un multiplicador de cantidad.
 
 **Qué modifica:** El valor de flujo volumétrico máximo (mm³/s) en el perfil de filamento. Este valor actúa como techo: el slicer nunca pedirá al hotend más volumen por segundo del que puede procesar.
 
-**Cómo leer el resultado:** El test imprime a velocidades de flujo crecientes. Se identifica el punto donde comienzan a aparecer huecos o irregularidades en la superficie — ese es el límite. El valor seguro se establece ligeramente por debajo de ese punto.
+**Cómo leer el resultado:** El test imprime a velocidades de flujo crecientes. En la figura 2 puedes ver la pieza completa del test (Fig. 2a) y las zonas de resultado anotadas (Fig. 2b): la zona verde (acabado brillante) y amarilla (acabado mate) corresponden al rango óptimo; la zona roja indica pérdida de adhesión entre capas, y la zona roja oscura falla total. Para obtener el valor numérico, mide la altura en la pieza hasta el punto óptimo identificado y lee directamente en Orca Slicer cuál es el flujo volumétrico asignado a esa altura. El valor seguro se establece ligeramente por debajo de ese punto.
+
+<div style="display: flex; gap: 8px; margin: 1em 0;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_velocidad/calib_test_velocidad.jpg" alt="Pieza de test del flujo volumétrico máximo impresa" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 2a — Pieza de test impresa</em></figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_velocidad/calib_resultados_velocidad_max.png" alt="Zonas de resultado anotadas: óptimo brillante, óptimo mate, deficiente, falla total" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 2b — Cómo leer los resultados: zonas de calidad anotadas</em></figcaption>
+  </figure>
+</div>
 
 **Por qué va antes del flujo y del Pressure Advance:** Si el hotend está intentando empujar más material del que puede fundir, todos los tests posteriores medirán sobre una base inestable. Establecer este límite primero garantiza que los demás tests operen dentro del rango en que el equipo es capaz de responder con precisión.
 
@@ -61,7 +89,12 @@ La clave de la metodología de Orca es el **orden**: cada test parte de que el a
 
 > **Nota:** El método PA Line depende directamente de la calidad de la primera capa. Si la cama no está bien nivelada, todas las líneas aparecerán irregulares por esa razón — no por el PA — y el test no será confiable. Recomendamos ejecutar la nivelación automática de la cama antes de realizar este test.
 
-**Cómo leer el resultado (PA Line):** Examina las líneas impresas buscando la más uniforme: ancho consistente de extremo a extremo, sin acumulaciones en los cambios de dirección y sin adelgazamientos antes de las esquinas. Un valor demasiado bajo produce blobs; uno demasiado alto genera líneas adelgazadas o con huecos. El valor de esa línea se ingresa directamente en el perfil de filamento. Para mayor detalle, ver la [documentación oficial de calibración de Pressure Advance](https://github.com/OrcaSlicer/OrcaSlicer/wiki/pressure-advance-calib).
+**Cómo leer el resultado (PA Line):** Examina las líneas impresas buscando la más uniforme: ancho consistente de extremo a extremo, sin acumulaciones en los cambios de dirección y sin adelgazamientos antes de las esquinas. Un valor demasiado bajo produce blobs; uno demasiado alto genera líneas adelgazadas o con huecos. El valor de esa línea se ingresa directamente en el perfil de filamento. En la figura 3 puedes ver el resultado de un PA Line: los recuadros rojos delimitan las zonas de lectura en los extremos de cada línea (donde se manifiestan los blobs o adelgazamientos), y el recuadro verde señala la línea más uniforme — el valor óptimo identificado. Para mayor detalle, ver la [documentación oficial de calibración de Pressure Advance](https://github.com/OrcaSlicer/OrcaSlicer/wiki/pressure-advance-calib).
+
+<figure style="margin: 1em 0; text-align: center;">
+  <img src="../../assets/images/calibracion/calib_pressure.png" alt="Resultado de PA Line con recuadros rojos en zonas de lectura y recuadro verde en la línea óptima" style="max-width: 100%; border-radius: 4px;">
+  <figcaption><em>Fig. 3 — Resultado de PA Line: zonas de lectura (rojo) y valor óptimo identificado (verde)</em></figcaption>
+</figure>
 
 ### 4. Flow calibration (Tasa de flujo)
 
@@ -69,7 +102,22 @@ La clave de la metodología de Orca es el **orden**: cada test parte de que el a
 
 **Qué modifica:** El multiplicador de flujo (flow ratio) en el perfil de filamento.
 
-**Cómo leer el resultado (método YOLO — recomendado para Orca Slicer ≥ 2.3.0):** El test genera once bloques, cada uno con un modificador de flow ratio distinto respecto al valor actual. Se identifica el bloque con la mejor superficie superior: sin huecos entre los arcos del patrón y sin línea visible entre la espiral interior y los arcos exteriores. El nuevo flow ratio se calcula con la fórmula `flow ratio anterior ± modificador del bloque ganador`. Para mayor detalle sobre cómo leer los bloques, ver la [documentación oficial del método YOLO](https://github.com/OrcaSlicer/OrcaSlicer/wiki/flow-ratio-calib#orcaslicer--230-archimedean-chords--yolo-recommended).
+**Cómo leer el resultado (método YOLO — recomendado para Orca Slicer ≥ 2.3.0):** El test genera once bloques, cada uno con un modificador de flow ratio distinto respecto al valor actual. Se identifica el bloque con la mejor superficie superior: sin huecos entre los arcos del patrón y sin línea visible entre la espiral interior y los arcos exteriores. El nuevo flow ratio se calcula con la fórmula `flow ratio anterior ± modificador del bloque ganador`. En la figura 4 puedes comparar tres bloques del mismo test: en la Fig. 4a (subextrusión, modificador −0.05) observa los espacios vacíos que quedan entre cordones en la superficie superior; en la Fig. 4b (bloque ganador, modificador −0.03) la superficie es notablemente más uniforme y sin huecos; en la Fig. 4c (sobreextrusión, modificador +0.05) aparece un relieve central elevado por el exceso de material. Como ejemplo práctico: en esta calibración de PET el flow ratio base del perfil era 0.97; al restarle el modificador ganador de 0.03, el flow ratio final queda en 0.94. Para mayor detalle sobre cómo leer los bloques, ver la [documentación oficial del método YOLO](https://github.com/OrcaSlicer/OrcaSlicer/wiki/flow-ratio-calib#orcaslicer--230-archimedean-chords--yolo-recommended).
+
+<div style="display: flex; gap: 8px; margin: 1em 0;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_multiplicador/multi_minus05_under.jpg" alt="Bloque con modificador −0.05: espacios vacíos entre cordones — subextrusión" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 4a — Subextrusión (mod. −0.05): espacios vacíos entre cordones</em></figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_multiplicador/multi_minus03_target.jpg" alt="Bloque ganador con modificador −0.03: superficie uniforme sin huecos" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 4b — Bloque ganador (mod. −0.03): superficie uniforme</em></figcaption>
+  </figure>
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="../../assets/images/calibracion/calib_multiplicador/multi_plus05_over.jpg" alt="Bloque con modificador +0.05: relieve central elevado — sobreextrusión" style="width: 100%; border-radius: 4px;">
+    <figcaption><em>Fig. 4c — Sobreextrusión (mod. +0.05): relieve central elevado</em></figcaption>
+  </figure>
+</div>
 
 ### 5. Retraction test (Test de retracción)
 
@@ -86,6 +134,21 @@ La clave de la metodología de Orca es el **orden**: cada test parte de que el a
 **Qué modifica:** La compensación de contorno XY (XY contour compensation) en el slicer.
 
 **Cómo leer el resultado:** El modelo incluye ranuras de diferentes tolerancias. Se identifica cuál encaja correctamente con una pieza de referencia y ese valor se registra como la compensación dimensional del equipo. Este test es opcional para quien imprime principalmente piezas decorativas o prototipos visuales.
+
+### Parámetros de referencia FiLL-3D por material
+
+Valores de partida recomendados para los filamentos FiLL-3D. Úsalos como punto de inicio antes de calibrar con los tests anteriores.
+
+| Material | Temp. boquilla (°C) | Flujo vol. máx. (mm³/s) | Pressure Advance K | Flow ratio (%) | Retracción (mm @ mm/s) | Temp. cama (°C) | Temp. ambiente (°C) | Enfriamiento (% ventilador) | Tiempo mín./capa (s) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| PLA básico | 200–220 | 32 | 0.021 | 95 | 0.2–0.5 @ 35 (DD) / 1–2 @ 45 (bowden) | 50–60 | — | 100% | — |
+| PLA Turbo | 220–240 | 55 | 0.018 | — | 0.1 @ 55 | 35–60 | — | 100% desde capa 2 | ≥2 |
+| PETG | 265 ±5 | 28 | 0.059 | 94 | 0.2 @ 35 | 80 | — | 30–50% desde capa 3 | ≥4 |
+| PA (Nylon) | 275 | 18 | 0.038 | 97.5 | 2 @ 40 | 100 | 40–60 | 0% (primeras 10 capas) → 10–50% | ≥5 |
+| PP | 300 | 12 | 0.085 | 104.5 | 0.2 @ 40 | 100 | 40–60 | 0% (primeras 5 capas) → 20–30% máx. | ≥5 |
+| PPCF | 300 | 17 | 0.044 | 101.5 | 0.2 @ 45 | 80 | 40–60 (recomendada) | 0% (primeras 5 capas) → 80% | ≥5 |
+
+Para más detalles sobre cada material, incluyendo tips de secado y post-procesado, consulta [Consejos por Tipo de Material](../../consejos-de-impresion/por-tipo-de-material.md).
 
 ---
 

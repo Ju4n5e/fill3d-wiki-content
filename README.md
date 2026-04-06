@@ -67,7 +67,11 @@ content/
     └── images/
         ├── calibracion/
         │   ├── cali-cube.webp                  🖼️ Cubo XYZ 20mm
-        │   └── voron-cube.webp                 🖼️ Voron Design Cube
+        │   ├── voron-cube.webp                 🖼️ Voron Design Cube
+        │   ├── calib_temperatura/              🖼️ Torre de temperatura (3 imágenes)
+        │   ├── calib_velocidad/                🖼️ Test flujo volumétrico máximo (2 imágenes)
+        │   ├── calib_pressure.png              🖼️ Resultado PA Line
+        │   └── calib_multiplicador/            🖼️ Test flow ratio — bloques (3 imágenes)
         ├── materiales-reference/               🖼️ Referencias de material impreso
         │   ├── PA-benchy.jpg
         │   ├── PA-voron.jpg
@@ -92,6 +96,11 @@ content/
 ## Progreso
 
 **31 / 31 archivos creados** — 31 terminados · 0 en borrador · 0 por crear
+
+**Actualización** — 2026-04-06 · Figuras de calibración + tabla de parámetros por material
+
+- `metodologia-orca.md`: se añaden 4 conjuntos de imágenes (temperatura, flujo volumétrico, Pressure Advance, flow ratio) y una tabla de parámetros de referencia por material.
+- `por-tipo-de-material.md`: se añade la sección PLA Turbo (faltante) y se completan los campos Flujo volumétrico máximo y Flow ratio para todos los materiales.
 
 **Entrega final** — 2026-03-27 · Revisión editorial completa (R04/R08)
 
