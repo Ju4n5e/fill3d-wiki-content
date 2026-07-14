@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "label": "Lo básico",
+      "items": [
+        { "label": "Introducción a la impresión 3D", "path": "lo-basico/introduccion-impresion-3d.md", "icon": "play" },
+        { "label": "Materiales de impresión 3D", "path": "lo-basico/materiales-impresion-3d.md", "icon": "circle" },
+        { "label": "Impresoras 3D", "path": "lo-basico/impresoras-3d.md", "icon": "square" },
+        { "label": "Slicers de impresión", "path": "lo-basico/slicers.md", "icon": "loader" },
+        { "label": "Aplicaciones", "path": "lo-basico/aplicaciones.md", "icon": "circle" },
+        { "label": "Datos curiosos del 3D", "path": "lo-basico/datos-curiosos.md", "icon": "circle" },
+        {
+          "label": "Primeros pasos", "icon": "folder",
+          "children": [
+            { "label": "Estrenando tu impresora", "path": "lo-basico/primeros-pasos/impresora.md", "icon": "dot" },
+            { "label": "Recibiendo un material nuevo", "path": "lo-basico/primeros-pasos/material.md", "icon": "dot" }
+          ]
+        },
+        {
+          "label": "Partes de la impresora", "icon": "folder",
+          "children": [
+            { "label": "Boquillas", "path": "lo-basico/partes-impresora/boquillas.md", "icon": "dot" },
+            { "label": "Camas de impresión", "path": "lo-basico/partes-impresora/camas-de-impresion.md", "icon": "dot" },
+            { "label": "Extrusores", "path": "lo-basico/partes-impresora/extrusores.md", "icon": "dot" }
+          ]
+        },
+        {
+          "label": "Materiales", "icon": "folder",
+          "children": [
+            { "label": "PLA", "path": "lo-basico/materiales/pla.md", "icon": "circle" },
+            { "label": "PETG", "path": "lo-basico/materiales/petg.md", "icon": "circle" },
+            { "label": "PA / Nylon", "path": "lo-basico/materiales/pa-nylon.md", "icon": "circle" },
+            { "label": "PP", "path": "lo-basico/materiales/pp.md", "icon": "circle" },
+            { "label": "Fibras aditivas", "path": "lo-basico/materiales/fibras-aditivas.md", "icon": "circle" },
+            { "label": "Reciclado y Transición", "path": "lo-basico/materiales/filamento-reciclado.md", "icon": "circle" },
+            { "label": "Fosforescente vs fluorescente", "path": "lo-basico/materiales/fosforescente-vs-fluorescente.md", "icon": "circle" }
+          ]
+        },
+        {
+          "label": "Calibración", "icon": "folder",
+          "children": [
+            { "label": "Tests de calibración", "path": "lo-basico/calibracion/index.md", "icon": "dot" },
+            { "label": "Cubo de calibración", "path": "lo-basico/calibracion/cubo-de-calibracion.md", "icon": "dot" },
+            { "label": "El Benchy y cómo leerlo", "path": "lo-basico/calibracion/benchy.md", "icon": "dot" },
+            { "label": "Calibración con Orca Slicer", "path": "lo-basico/calibracion/metodologia-orca.md", "icon": "dot" }
+          ]
+        },
+        {
+          "label": "Mantenimiento", "icon": "folder",
+          "children": [
+            { "label": "Mantenimiento", "path": "lo-basico/mantenimiento/mantenimiento.md", "icon": "dot" },
+            { "label": "Accesorios y repuestos", "path": "lo-basico/mantenimiento/accesorios-y-repuestos.md", "icon": "dot" }
+          ]
+        },
+        { "label": "Perfiles OrcaSlicer", "path": "__perfiles-filamento__", "icon": "download" },
+        { "label": "Perfiles Creality Print", "path": "__perfiles-creality__", "icon": "download" }
+      ]
+    },
+    {
+      "label": "Consejos de impresión",
+      "items": [
+        { "label": "Por tipo de material", "path": "consejos-de-impresion/por-tipo-de-material.md", "icon": "circle" },
+        { "label": "Problemas comunes", "path": "consejos-de-impresion/problemas-comunes.md", "icon": "triangle" },
+        { "label": "¿Sirve para mi impresora?", "path": "consejos-de-impresion/perfiles-por-impresora.md", "icon": "square" },
+        { "label": "Post-procesado", "path": "consejos-de-impresion/post-procesado.md", "icon": "pencil" },
+        { "label": "Ciencia de materiales", "path": "referencia-tecnica/ciencia-de-materiales.md", "icon": "circle" }
+      ]
+    },
+    {
+      "label": "Re-Fill",
+      "items": [
+        { "label": "Cómo cargar tu Re-Fill", "path": "propuestas/guia-re-fill.md", "icon": "play" },
+        { "label": "Preguntas frecuentes del Re-Fill", "path": "propuestas/faq-re-fill.md", "icon": "circle" }
+      ]
+    },
+    {
+      "label": "Comercial",
+      "items": [
+        { "label": "Mayoristas y distribuidores", "path": "comercial/mayoristas-distribuidores.md", "icon": "circle" },
+        { "label": "Servicio de impresión de piezas", "path": "comercial/servicio-de-impresion.md", "icon": "pencil" }
+      ]
+    },
+    {
+      "label": "Glosario",
+      "items": [
+        { "label": "Glosario técnico", "path": "referencia-tecnica/index.md", "icon": "book" }
+      ]
+    }
+  ]
+}
