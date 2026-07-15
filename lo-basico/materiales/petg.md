@@ -22,7 +22,7 @@ El **PETG** es el hermano mayor del PLA: un poco más exigente a la hora de impr
 
 Si ya tienes algo de experiencia con PLA y quieres un filamento que resista mejor en el mundo real, el PETG es el paso natural. No necesita cámara cerrada, no emite gases peligrosos y los resultados son semitransparentes y brillantes — ideales cuando quieres piezas que también se vean bien.
 
-Piénsalo como una versión más resistente del PLA: necesita un poco más de atención durante la impresión, pero las piezas terminadas aguantan mejor si van a la cocina, al aire libre o en un proyecto que necesite resistir impactos cotidianos. El [FiLL-3D PETG](https://www.fill-3d.com/tienda/) combina esta resistencia con la calidad de fabricación colombiana y garantía 100 %.
+Piénsalo como una versión más resistente del PLA: necesita un poco más de atención durante la impresión, pero las piezas terminadas aguantan mejor si van a la cocina, al aire libre o en un proyecto que necesite resistir impactos cotidianos. El [Fill3D PETG](https://www.fill-3d.com/tienda/) combina esta resistencia con la calidad de fabricación colombiana y garantía 100 %.
 
 ---
 
@@ -32,9 +32,9 @@ Piénsalo como una versión más resistente del PLA: necesita un poco más de at
 
 El PETG combina buena **resistencia mecánica**, mayor flexibilidad que el PLA y una **resistencia al calor** superior (~80 °C bajo carga ligera). Es semitransparente en su estado natural, lo que lo hace popular para protectores, difusores de luz y envases. Resiste bien la humedad ambiental y es generalmente considerado seguro para contacto con alimentos, aunque esto depende del colorante específico y de las condiciones de impresión.
 
-![Voron Design Cube impreso en PETG FiLL-3D](../../../assets/images/materiales-reference/PETG-voron.jpg)
+![Voron Design Cube impreso en PETG Fill3D](../../../assets/images/materiales-reference/PETG-voron.jpg)
 
-### Parámetros de impresión recomendados — FiLL-3D PETG
+### Parámetros de impresión recomendados — Fill3D PETG
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
@@ -55,7 +55,7 @@ El PETG combina buena **resistencia mecánica**, mayor flexibilidad que el PLA y
 - Accesorios de cocina (verificar compatibilidad del colorante)
 - Componentes de impresoras 3D (extrusor, ductos de ventilación)
 
-![Cali Dragon impreso en PETG FiLL-3D](../../../assets/images/materiales-reference/PETG-cali-dragon.jpg)
+![Cali Dragon impreso en PETG Fill3D](../../../assets/images/materiales-reference/PETG-cali-dragon.jpg)
 
 ### Ventajas y limitaciones
 
@@ -95,3 +95,12 @@ El PETG tiene adhesión intercapa excelente cuando se imprime con suficiente tem
 - [PLA — Ficha de Material](./pla.md)
 - [PA (Nylon) — Ficha de Material](./pa-nylon.md)
 - [Consejos de Impresión por Tipo de Material](../../consejos-de-impresion/por-tipo-de-material.md)
+
+## ¿Qué tan transparente es el PETG natural?
+
+Es la pregunta que más nos hacen de este material. Respuesta honesta: el PETG natural es **translúcido, no transparente como el vidrio**. Una pared sencilla de 1–2 perímetros deja pasar bien la luz y permite ver siluetas y niveles de líquido; a mayor grosor y más infill, más lechoso se ve.
+
+Para maximizar la claridad: imprime paredes delgadas (1–2 perímetros), capa de 0.1–0.15 mm, temperatura en el rango alto (245–250 °C) y velocidad baja — las capas se fusionan mejor y dispersan menos la luz. Un acabado con barniz o resina epóxica transparente sube otro nivel la claridad.
+
+**¿Sirve para contener líquidos?** Sí: el PETG es la misma familia del plástico de las botellas y resiste bien agua y humedad. Para estanqueidad usa 3+ perímetros y considera sellar por dentro. Para contacto con alimentos, revisa la ficha del colorante y evita reutilizar sin lavar bien (las líneas de capa acumulan residuos).
+

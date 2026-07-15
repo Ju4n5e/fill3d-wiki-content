@@ -83,7 +83,7 @@ El punto de partida más seguro es 0.5–1.5 mm para accionamiento directo y 4�
 
 ### Desgaste de engranajes con materiales abrasivos
 
-El FiLL-3D PPCF (PP con fibra de carbono) no solo desgasta la boquilla: las partículas abrasivas también erosionan el engranaje de arrastre a lo largo del tiempo, especialmente si es de acero inoxidable estándar. Para impresión frecuente con composites, considera engranajes de acero endurecido o nitruro (DLC-coated). Inspeccionalos visualmente cada 100–200 horas de impresión con abrasivos.
+El Fill3D PPCF (PP con fibra de carbono) no solo desgasta la boquilla: las partículas abrasivas también erosionan el engranaje de arrastre a lo largo del tiempo, especialmente si es de acero inoxidable estándar. Para impresión frecuente con composites, considera engranajes de acero endurecido o nitruro (DLC-coated). Inspeccionalos visualmente cada 100–200 horas de impresión con abrasivos.
 
 > 💡 **Nota técnica:** El Adaptive Pressure Advance (disponible en Orca Slicer / Bambu Studio) modela la respuesta dinámica del extrusor en función de la velocidad de cambio, reduciendo el error de flujo en aceleraciones bruscas sin necesidad de afinar la retracción para cada velocidad manualmente.
 

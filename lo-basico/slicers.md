@@ -65,7 +65,7 @@ El proceso ocurre en cuatro etapas principales:
 
 Un **perfil de material** es un conjunto de parámetros preconfigurados para un filamento específico. En lugar de ajustar temperatura, velocidad y retracción desde cero, cargas el perfil del material que vas a usar y el slicer aplica automáticamente una configuración de punto de partida probada.
 
-Cuando usas [FiLL-3D PLA](https://www.fill-3d.com/tienda/) o [PLA Turbo](https://www.fill-3d.com/tienda/), el perfil de material te da los valores base correctos. A partir de ahí puedes hacer ajustes finos según tu impresora particular.
+Cuando usas [Fill3D PLA](https://www.fill-3d.com/tienda/) o [PLA Turbo](https://www.fill-3d.com/tienda/), el perfil de material te da los valores base correctos. A partir de ahí puedes hacer ajustes finos según tu impresora particular.
 
 ### Soportes y adhesión a la cama
 
@@ -89,7 +89,7 @@ El flow rate global en el slicer es un multiplicador sobre el diámetro de filam
 
 ### Estrategias de infill para propiedades mecánicas específicas
 
-El patrón de infill no es solo estético: **gyroid** distribuye carga isotrópicamente en los tres ejes, ideal para piezas sometidas a fuerzas multidireccionales; **honeycomb** y **cubic** son más eficientes para cargas de compresión axial. Para piezas impresas con FiLL-3D PPCF o PA donde la orientación de las fibras cortas importa, el patrón de infill interactúa con la dirección de las paredes y puede aumentar o reducir la resistencia en puntos críticos.
+El patrón de infill no es solo estético: **gyroid** distribuye carga isotrópicamente en los tres ejes, ideal para piezas sometidas a fuerzas multidireccionales; **honeycomb** y **cubic** son más eficientes para cargas de compresión axial. Para piezas impresas con Fill3D PPCF o PA donde la orientación de las fibras cortas importa, el patrón de infill interactúa con la dirección de las paredes y puede aumentar o reducir la resistencia en puntos críticos.
 
 ### Gestión de G-code post-procesado
 

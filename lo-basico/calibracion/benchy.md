@@ -33,7 +33,7 @@ Usa los mismos parámetros del perfil que quieres evaluar. No reducir velocidad,
 
 ### Guía de lectura por zonas
 
-![Benchy impreso en PLA Turbo FiLL-3D — referencia de resultado bien calibrado](../../../assets/images/materiales-reference/PLA-turbo-benchy.jpg)
+![Benchy impreso en PLA Turbo Fill3D — referencia de resultado bien calibrado](../../../assets/images/materiales-reference/PLA-turbo-benchy.jpg)
 
 #### Casco (parte inferior)
 

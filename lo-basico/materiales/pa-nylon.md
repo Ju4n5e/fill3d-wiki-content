@@ -22,7 +22,7 @@ El **PA** (poliamida, más conocido como Nylon) es el material de impresión 3D 
 
 La contrapartida es que el Nylon es más exigente a la hora de imprimir: necesita temperaturas altas, cama caliente y, sobre todo, estar completamente seco antes de entrar a la impresora. Si alguna vez escuchaste un "pop pop pop" mientras imprimes, casi con certeza es humedad en el filamento, y con el PA ese problema se multiplica.
 
-Si vienes del PLA, el salto al PA es significativo pero vale la pena cuando el proyecto lo exige. Empieza con piezas pequeñas para calibrar tu configuración antes de lanzarte a impresiones largas. El [FiLL-3D PA](https://www.fill-3d.com/tienda/) está fabricado con los mismos estándares de calidad del resto de la línea.
+Si vienes del PLA, el salto al PA es significativo pero vale la pena cuando el proyecto lo exige. Empieza con piezas pequeñas para calibrar tu configuración antes de lanzarte a impresiones largas. El [Fill3D PA](https://www.fill-3d.com/tienda/) está fabricado con los mismos estándares de calidad del resto de la línea.
 
 ---
 
@@ -30,11 +30,11 @@ Si vienes del PLA, el salto al PA es significativo pero vale la pena cuando el p
 
 ### Características del material
 
-El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: alta **resistencia al impacto**, buena **resistencia a la fatiga** y muy bajo coeficiente de fricción superficial — ideal para piezas en contacto y movimiento. Existen varios tipos; el **[FiLL-3D PA](https://www.fill-3d.com/tienda/) es PA12**, la variante con menor absorción de humedad y menor warping versus el PA6, lo que lo hace el más adecuado para impresión FDM de escritorio.
+El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: alta **resistencia al impacto**, buena **resistencia a la fatiga** y muy bajo coeficiente de fricción superficial — ideal para piezas en contacto y movimiento. Existen varios tipos; el **[Fill3D PA](https://www.fill-3d.com/tienda/) es PA12**, la variante con menor absorción de humedad y menor warping versus el PA6, lo que lo hace el más adecuado para impresión FDM de escritorio.
 
-![Voron Design Cube impreso en PA (Nylon) FiLL-3D](../../../assets/images/materiales-reference/PA-voron.jpg)
+![Voron Design Cube impreso en PA (Nylon) Fill3D](../../../assets/images/materiales-reference/PA-voron.jpg)
 
-### Parámetros de impresión recomendados — FiLL-3D PA
+### Parámetros de impresión recomendados — Fill3D PA
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
@@ -55,7 +55,7 @@ El PA es un polímero **semicristalino** con excelentes propiedades mecánicas: 
 - Accesorios industriales y de maquinaria ligera
 - Prototipos funcionales de alta resistencia
 
-![Benchy impreso en PA (Nylon) FiLL-3D](../../../assets/images/materiales-reference/PA-benchy.jpg)
+![Benchy impreso en PA (Nylon) Fill3D](../../../assets/images/materiales-reference/PA-benchy.jpg)
 
 ### Ventajas y limitaciones
 
@@ -77,7 +77,7 @@ El PA es **altamente higroscópico** — puede absorber humedad del aire en poca
 
 ### Secado: temperatura, tiempo y método importan
 
-El secado del PA no es opcional ni aproximado. El PA6 requiere 80–85 °C por 8–12 horas para eliminar la humedad absorbida; el PA12 es algo más tolerante (70–80 °C por 6–8 horas). Un deshidratador de alimentos con control preciso de temperatura es superior a un horno doméstico porque mantiene temperatura uniforme sin ciclos. Una forma de verificar que el filamento está seco es pesarlo antes y después del secado: una pérdida de 0.5–2 % del peso indica humedad eliminada. El protocolo oficial para el **FiLL-3D PA** es **85–95 °C por 12 horas**; si se usa menor temperatura, extender el tiempo proporcionalmente. Guardar en bolsa sellada con desecante después de secar.
+El secado del PA no es opcional ni aproximado. El PA6 requiere 80–85 °C por 8–12 horas para eliminar la humedad absorbida; el PA12 es algo más tolerante (70–80 °C por 6–8 horas). Un deshidratador de alimentos con control preciso de temperatura es superior a un horno doméstico porque mantiene temperatura uniforme sin ciclos. Una forma de verificar que el filamento está seco es pesarlo antes y después del secado: una pérdida de 0.5–2 % del peso indica humedad eliminada. El protocolo oficial para el **Fill3D PA** es **85–95 °C por 12 horas**; si se usa menor temperatura, extender el tiempo proporcionalmente. Guardar en bolsa sellada con desecante después de secar.
 
 ### Adhesión a la cama: estrategias que funcionan
 

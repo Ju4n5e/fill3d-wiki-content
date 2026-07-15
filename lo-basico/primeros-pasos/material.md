@@ -39,7 +39,7 @@ Lee la etiqueta completa antes de cargar el filamento. Los datos que necesitas s
 - **Diámetro** (1,75 mm es el estándar más común; 2,85 mm es menos frecuente pero existe — cargar el diámetro incorrecto en tu slicer afecta el flujo)
 - **Temperaturas recomendadas por el fabricante** para boquilla y cama
 
-Los filamentos FiLL-3D incluyen las temperaturas recomendadas directamente en la etiqueta, lo que hace que este paso sea inmediato.
+Los filamentos Fill3D incluyen las temperaturas recomendadas directamente en la etiqueta, lo que hace que este paso sea inmediato.
 
 ### 3. Comparar con perfiles existentes
 

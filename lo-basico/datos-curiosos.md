@@ -49,7 +49,7 @@ Más allá del PLA y el PETG, el catálogo de materiales especiales es extenso y
 
 ### Colombia y América Latina
 
-La adopción de impresión 3D en Colombia y el resto de la región ha crecido de manera notable en los últimos años. Universidades, centros de innovación y makers independientes en ciudades como Bogotá, Medellín y Cali han integrado la tecnología en proyectos de diseño industrial, arquitectura, educación y hasta gastronomía. La barrera de acceso ha bajado significativamente con la producción local de filamento — es aquí donde empresas como FiLL-3D juegan un papel concreto: fabricar filamento en Colombia reduce tiempos de importación, garantiza disponibilidad y hace la tecnología más accesible para el ecosistema local.
+La adopción de impresión 3D en Colombia y el resto de la región ha crecido de manera notable en los últimos años. Universidades, centros de innovación y makers independientes en ciudades como Bogotá, Medellín y Cali han integrado la tecnología en proyectos de diseño industrial, arquitectura, educación y hasta gastronomía. La barrera de acceso ha bajado significativamente con la producción local de filamento — es aquí donde empresas como Fill3D juegan un papel concreto: fabricar filamento en Colombia reduce tiempos de importación, garantiza disponibilidad y hace la tecnología más accesible para el ecosistema local.
 
 ---
 

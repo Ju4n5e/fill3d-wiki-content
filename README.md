@@ -1,8 +1,8 @@
-# Wiki FiLL-3D — Contenido
+# Wiki Fill3D — Contenido
 
-Este repositorio contiene los archivos de contenido del wiki técnico de **FiLL-3D**, fabricante colombiano de filamentos para impresión 3D.
+Este repositorio contiene los archivos de contenido del wiki técnico de **Fill3D**, fabricante colombiano de filamentos para impresión 3D.
 
-El wiki está escrito en español (Colombia) y cubre desde los conceptos básicos de impresión 3D hasta guías técnicas avanzadas por material, organizadas para acompañar al usuario en cada etapa de su experiencia con los productos FiLL-3D.
+El wiki está escrito en español (Colombia) y cubre desde los conceptos básicos de impresión 3D hasta guías técnicas avanzadas por material, organizadas para acompañar al usuario en cada etapa de su experiencia con los productos Fill3D.
 
 ---
 

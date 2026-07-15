@@ -73,7 +73,7 @@ No entres en pánico si la primera pieza tiene defectos visibles. La mayoría de
 
 Si quieres entender mejor cómo el tipo de impresora afecta estos pasos — cartesiana básica, CoreXY, delta — la página [Impresoras 3D](../../lo-basico/impresoras-3d.md) explica las diferencias y por qué algunos ajustes varían entre arquitecturas.
 
-> **Nota sobre el filamento:** los filamentos FiLL-3D cuentan con garantía total incluso si ya usaste parte del rollo. Si tienes problemas que apuntan al material y no a la impresora, puedes contactar al equipo FiLL-3D directamente.
+> **Nota sobre el filamento:** los filamentos Fill3D cuentan con garantía total incluso si ya usaste parte del rollo. Si tienes problemas que apuntan al material y no a la impresora, puedes contactar al equipo Fill3D directamente.
 
 ---
 

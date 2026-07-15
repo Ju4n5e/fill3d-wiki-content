@@ -13,13 +13,13 @@ estado: "borrador"
 
 > Carga tu Re-Fill PLA en un carrete reutilizable en 8 pasos simples y sin desperdiciar nada.
 
-El sistema [Re-Fill PLA](https://www.fill-3d.com/tienda/) de FiLL-3D te permite recargar tu carrete vacío con filamento nuevo sin necesidad de comprar uno completo. Menos plástico, menos empaque, el mismo filamento de calidad. Este proceso toma menos de dos minutos cuando lo haces por primera vez, y aún menos después.
+El sistema [Re-Fill PLA](https://www.fill-3d.com/tienda/) de Fill3D te permite recargar tu carrete vacío con filamento nuevo sin necesidad de comprar uno completo. Menos plástico, menos empaque, el mismo filamento de calidad. Este proceso toma menos de dos minutos cuando lo haces por primera vez, y aún menos después.
 
 ---
 
 ## Lo que necesitas
 
-- Tu carrete FiLL-3D vacío (o uno compatible con el sistema Re-Fill)
+- Tu carrete Fill3D vacío (o uno compatible con el sistema Re-Fill)
 - Tu paquete de Re-Fill PLA
 
 No necesitas herramientas.
@@ -110,7 +110,7 @@ Retira la cinta que sujeta la punta de trabajo de tu filamento. Enhebra esa punt
 
 ## Listo
 
-Tu carrete Re-Fill está cargado y listo para usar. Introdúcelo en tu impresora como lo harías con cualquier carrete FiLL-3D.
+Tu carrete Re-Fill está cargado y listo para usar. Introdúcelo en tu impresora como lo harías con cualquier carrete Fill3D.
 
 Cuando el filamento se agote, vuelve a separar el carrete, retira el núcleo vacío del Re-Fill y repite el proceso con tu siguiente recarga.
 

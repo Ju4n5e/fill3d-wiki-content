@@ -12,10 +12,10 @@ version: "1.0"
 
 # Consejos por Tipo de Material
 
-> Parámetros clave para imprimir cada material FiLL-3D con éxito.
+> Parámetros clave para imprimir cada material Fill3D con éxito.
 
 Cada filamento tiene propiedades únicas que requieren ajustes distintos en tu impresora.
-Esta guía consolida los valores directamente de los perfiles oficiales FiLL-3D,
+Esta guía consolida los valores directamente de los perfiles oficiales Fill3D,
 más los tips de uso que no caben en un archivo de slicer. Imprime con confianza.
 
 ---

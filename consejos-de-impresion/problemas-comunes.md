@@ -49,7 +49,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 - Asegúrate de que la cama esté nivelada y el z-offset sea óptimo antes de cada impresión — una primera capa bien aplastada es la base de todo lo demás.
 
 > 💡 **Boquilla limpia antes de imprimir:** Verifica que la boquilla esté libre de material adherido o carbonizado antes de comenzar. Los restos de filamento en la punta interfieren con los sensores de nivelación automática (ABL), impidiendo que la impresora calibre correctamente la altura de la primera capa y comprometiendo la adhesión desde el inicio.
-- El FiLL-3D PLA
+- El Fill3D PLA
 
 **Síntoma visible:** Hilos finos de plástico que quedan entre zonas separadas de la pieza, como telarañas. Frecuente en modelos con partes aisladas o torres.
 
@@ -68,13 +68,13 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 
 **Cómo prevenirlo:**
 - Guarda siempre el filamento en bolsas herméticas con desecante entre usos.
-- El FiLL-3D PLA.
+- El Fill3D PLA.
 3. Reduce la velocidad de impresión un 20%.
 4. Si usas ventilación activa al 100%, redúcela al 50–70% para materiales como PLA que igual necesitan algo de enfriamiento, pero no excesivo.
 5. Para materiales técnicos (PA, PETG, PP), desactiva completamente la ventilación en las primeras capas.
 
 **Cómo prevenirlo:**
-- Consulta siempre el rango de temperatura recomendado para cada filamento. Los materiales FiLL-3D tienen rangos probados y documentados en sus páginas de material.
+- Consulta siempre el rango de temperatura recomendado para cada filamento. Los materiales Fill3D tienen rangos probados y documentados en sus páginas de material.
 
 ---
 
@@ -98,7 +98,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 5. Limpia el engranaje del extrusor con un cepillo de dientes seco.
 
 **Cómo prevenirlo:**
-- El diámetro de filamento es crítico: una variación de ±0.1 mm puede traducirse en una diferencia de volumen extruido de hasta 5%. El FiLL-3D PLA mantiene tolerancias de ±0.02 mm, lo que hace que el flow calibrado se mantenga estable a lo largo de toda la impresión.
+- El diámetro de filamento es crítico: una variación de ±0.1 mm puede traducirse en una diferencia de volumen extruido de hasta 5%. El Fill3D PLA mantiene tolerancias de ±0.02 mm, lo que hace que el flow calibrado se mantenga estable a lo largo de toda la impresión.
 
 ---
 
@@ -120,7 +120,7 @@ La impresión 3D tiene una curva de aprendizaje real, y si tu pieza salió mal, 
 4. Asegúrate de que la velocidad de impresión no sea innecesariamente lenta para geometrías de paredes delgadas.
 
 **Cómo prevenirlo:**
-- Calibra el flow una vez por marca de filamento. Con filamentos de tolerancia consistente como FiLL-3D, el valor calibrado se mantiene de rollo en rollo — no tienes que recalibrar cada vez que abres un paquete nuevo.
+- Calibra el flow una vez por marca de filamento. Con filamentos de tolerancia consistente como Fill3D, el valor calibrado se mantiene de rollo en rollo — no tienes que recalibrar cada vez que abres un paquete nuevo.
 
 ---
 

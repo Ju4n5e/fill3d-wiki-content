@@ -49,11 +49,11 @@ En sectores de alta exigencia técnica, la impresión 3D se emplea para fabricar
 
 ### Uso doméstico y maker
 
-En casa, la impresión 3D brilla para **reparar objetos cotidianos** (una manija rota, una tapa de control remoto), fabricar organizadores personalizados, crear figuras decorativas o simplemente explorar la creatividad. La comunidad maker colombiana —activa en ciudades como Bogotá, Medellín y Cali— usa filamentos como el [FiLL-3D PLA](https://www.fill-3d.com/tienda/) para proyectos que van desde domótica hasta arte generativo.
+En casa, la impresión 3D brilla para **reparar objetos cotidianos** (una manija rota, una tapa de control remoto), fabricar organizadores personalizados, crear figuras decorativas o simplemente explorar la creatividad. La comunidad maker colombiana —activa en ciudades como Bogotá, Medellín y Cali— usa filamentos como el [Fill3D PLA](https://www.fill-3d.com/tienda/) para proyectos que van desde domótica hasta arte generativo.
 
-### Dónde encajan los materiales FiLL-3D
+### Dónde encajan los materiales Fill3D
 
-La elección del material depende de la aplicación. El PLA estándar de FiLL-3D es ideal para prototipos, piezas decorativas y educación. El FiLL-3D PETG cubre aplicaciones que requieren más resistencia al impacto y a la humedad. Para piezas técnicas con exigencias mecánicas o de temperatura, el FiLL-3D PA y el FiLL-3D PPCF son las opciones de mayor rendimiento. Si necesitas velocidad sin sacrificar calidad en piezas funcionales, el [PLA Turbo](https://www.fill-3d.com/tienda/) es la alternativa adecuada.
+La elección del material depende de la aplicación. El PLA estándar de Fill3D es ideal para prototipos, piezas decorativas y educación. El Fill3D PETG cubre aplicaciones que requieren más resistencia al impacto y a la humedad. Para piezas técnicas con exigencias mecánicas o de temperatura, el Fill3D PA y el Fill3D PPCF son las opciones de mayor rendimiento. Si necesitas velocidad sin sacrificar calidad en piezas funcionales, el [PLA Turbo](https://www.fill-3d.com/tienda/) es la alternativa adecuada.
 
 ---
 

@@ -11,7 +11,7 @@ estado: "terminado"
 
 # Índice — Consejos de Impresión
 
-Imprimir bien no es cuestión de suerte: es entender tus materiales, conocer tu máquina y saber qué ajustar cuando algo sale mal. En esta sección encontrarás todo lo que necesitas para llevar tus impresiones al siguiente nivel, sin importar si estás empezando o ya tienes horas de vuelo. FiLL-3D reúne aquí la guía práctica que ojalá hubieras tenido desde el primer día.
+Imprimir bien no es cuestión de suerte: es entender tus materiales, conocer tu máquina y saber qué ajustar cuando algo sale mal. En esta sección encontrarás todo lo que necesitas para llevar tus impresiones al siguiente nivel, sin importar si estás empezando o ya tienes horas de vuelo. Fill3D reúne aquí la guía práctica que ojalá hubieras tenido desde el primer día.
 
 ---
 

@@ -79,7 +79,7 @@ Este glosario reúne los términos más importantes del mundo de la impresión 3
 
 ### PLA
 
-**Definición:** El **PLA** (Ácido Poliláctico) es el termoplástico más utilizado en impresión 3D FDM: fácil de imprimir, disponible en gran variedad de colores y derivado de fuentes renovables como el almidón de maíz. Es el material de entrada recomendado para usuarios nuevos y el más popular del catálogo FiLL-3D.
+**Definición:** El **PLA** (Ácido Poliláctico) es el termoplástico más utilizado en impresión 3D FDM: fácil de imprimir, disponible en gran variedad de colores y derivado de fuentes renovables como el almidón de maíz. Es el material de entrada recomendado para usuarios nuevos y el más popular del catálogo Fill3D.
 
 **Nivel:** `básico`
 
@@ -89,7 +89,7 @@ Este glosario reúne los términos más importantes del mundo de la impresión 3
 
 ### PLA Turbo
 
-**Definición:** El **PLA Turbo** es el filamento PLA de alta velocidad de FiLL-3D, formulado para imprimir a velocidades significativamente mayores que un PLA estándar sin sacrificar calidad superficial ni resistencia mecánica. Es una referencia del catálogo FiLL-3D diseñada específicamente para impresoras de alta velocidad.
+**Definición:** El **PLA Turbo** es el filamento PLA de alta velocidad de Fill3D, formulado para imprimir a velocidades significativamente mayores que un PLA estándar sin sacrificar calidad superficial ni resistencia mecánica. Es una referencia del catálogo Fill3D diseñada específicamente para impresoras de alta velocidad.
 
 **Nivel:** `técnico`
 
@@ -109,7 +109,7 @@ Este glosario reúne los términos más importantes del mundo de la impresión 3
 
 ### PPCF
 
-**Definición:** El **PPCF** es el polipropileno con fibra de carbono discontinua de FiLL-3D: mantiene las propiedades químicas y de fatiga del PP y suma mayor rigidez y resistencia específica gracias a la fibra. Requiere boquilla de acero endurecido por su naturaleza abrasiva.
+**Definición:** El **PPCF** es el polipropileno con fibra de carbono discontinua de Fill3D: mantiene las propiedades químicas y de fatiga del PP y suma mayor rigidez y resistencia específica gracias a la fibra. Requiere boquilla de acero endurecido por su naturaleza abrasiva.
 
 **Nivel:** `técnico`
 
@@ -119,7 +119,7 @@ Este glosario reúne los términos más importantes del mundo de la impresión 3
 
 ### Re-Fill PLA
 
-**Definición:** El **Re-Fill PLA** es el sistema de recarga ecológica de FiLL-3D: el filamento viene sin carrete, listo para enrollar en tu carrete existente, reduciendo el plástico residual y el costo de embalaje. Es el mismo material PLA de alta calidad de FiLL-3D, en un formato más sostenible.
+**Definición:** El **Re-Fill PLA** es el sistema de recarga ecológica de Fill3D: el filamento viene sin carrete, listo para enrollar en tu carrete existente, reduciendo el plástico residual y el costo de embalaje. Es el mismo material PLA de alta calidad de Fill3D, en un formato más sostenible.
 
 **Nivel:** `básico`
 
@@ -221,7 +221,7 @@ Este glosario reúne los términos más importantes del mundo de la impresión 3
 
 ### Temperatura de boquilla
 
-**Definición:** La **temperatura de boquilla** es el valor al que se calienta el hotend para fundir el filamento; cada material tiene un rango recomendado y salirse de ese rango provoca subextrusión (temperatura baja) o degradación del material y clogging (temperatura demasiado alta). FiLL-3D publica los rangos recomendados para cada uno de sus filamentos.
+**Definición:** La **temperatura de boquilla** es el valor al que se calienta el hotend para fundir el filamento; cada material tiene un rango recomendado y salirse de ese rango provoca subextrusión (temperatura baja) o degradación del material y clogging (temperatura demasiado alta). Fill3D publica los rangos recomendados para cada uno de sus filamentos.
 
 **Nivel:** `básico`
 

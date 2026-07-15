@@ -22,7 +22,7 @@ El **PLA** (ácido poliláctico) es el punto de entrada de casi todo el mundo a 
 
 Si acabas de comprar tu impresora o tu primer rollo, empieza aquí. El PLA no necesita una cama muy caliente, no emite gases peligrosos y casi no tiene warping. Puedes imprimirlo en un cuarto sin ventilación especial y obtener resultados bonitos desde los primeros intentos.
 
-Piénsalo como la arcilla de modelar del mundo digital: fácil de trabajar, disponible en muchos colores y perfecta para aprender sin complicaciones. El [FiLL-3D PLA](https://www.fill-3d.com/tienda/) viene en una amplia gama de colores vibrantes, fabricado en Colombia con altos estándares de calidad y con garantía 100 % incluso si ya usaste parte del rollo.
+Piénsalo como la arcilla de modelar del mundo digital: fácil de trabajar, disponible en muchos colores y perfecta para aprender sin complicaciones. El [Fill3D PLA](https://www.fill-3d.com/tienda/) viene en una amplia gama de colores vibrantes, fabricado en Colombia con altos estándares de calidad y con garantía 100 % incluso si ya usaste parte del rollo.
 
 ---
 
@@ -32,7 +32,7 @@ Piénsalo como la arcilla de modelar del mundo digital: fácil de trabajar, disp
 
 El PLA es un polímero **semicristalino** de origen vegetal con buenas propiedades mecánicas para uso general. Es rígido, tiene buena resolución de detalle y acepta bien el pintado y lijado. Su principal limitación es la temperatura: empieza a deformarse por encima de los 55–60 °C, lo que lo hace inadecuado para piezas que van dentro de un carro o en exteriores bajo el sol.
 
-### Parámetros de impresión recomendados — FiLL-3D PLA
+### Parámetros de impresión recomendados — Fill3D PLA
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
@@ -46,7 +46,7 @@ El PLA es un polímero **semicristalino** de origen vegetal con buenas propiedad
 
 ### PLA Turbo — Alta velocidad
 
-El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad de FiLL-3D, formulada para impresoras con sistemas de movimiento rápido como CoreXY. Mantiene las ventajas del PLA estándar pero está optimizado para velocidades superiores sin sacrificar adhesión entre capas ni detalle superficial.
+El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad de Fill3D, formulada para impresoras con sistemas de movimiento rápido como CoreXY. Mantiene las ventajas del PLA estándar pero está optimizado para velocidades superiores sin sacrificar adhesión entre capas ni detalle superficial.
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
@@ -59,7 +59,7 @@ El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad
 
 > El PLA Turbo se beneficia especialmente de boquillas de 0.6 mm o más cuando se imprimen capas gruesas a alta velocidad.
 
-![Voron Design Cube impreso en PLA Turbo FiLL-3D](../../../assets/images/materiales-reference/PLA-turbo-voron.jpg)
+![Voron Design Cube impreso en PLA Turbo Fill3D](../../../assets/images/materiales-reference/PLA-turbo-voron.jpg)
 
 ### Aplicaciones ideales
 
@@ -70,7 +70,7 @@ El [PLA Turbo](https://www.fill-3d.com/tienda/) es la variante de alta velocidad
 - Proyectos educativos y de aprendizaje
 - Modelos arquitectónicos y maquetas
 
-![Cali Dragon impreso en PLA Turbo FiLL-3D](../../../assets/images/materiales-reference/PLA-turbo-cali-dragon.jpg)
+![Cali Dragon impreso en PLA Turbo Fill3D](../../../assets/images/materiales-reference/PLA-turbo-cali-dragon.jpg)
 
 ### Ventajas y limitaciones
 

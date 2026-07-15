@@ -11,7 +11,7 @@ estado: "terminado"
 
 # Lo Básico
 
-Bienvenido a la sección de fundamentos de la wiki de FiLL-3D. Aquí encontrarás todo lo que necesitas para entender cómo funciona la impresión 3D: desde los conceptos más esenciales hasta los materiales, las partes de tu impresora y cómo mantenerla en buen estado. Si estás empezando, este es tu punto de partida; si ya tienes experiencia, úsala como referencia rápida.
+Bienvenido a la sección de fundamentos de la wiki de Fill3D. Aquí encontrarás todo lo que necesitas para entender cómo funciona la impresión 3D: desde los conceptos más esenciales hasta los materiales, las partes de tu impresora y cómo mantenerla en buen estado. Si estás empezando, este es tu punto de partida; si ya tienes experiencia, úsala como referencia rápida.
 
 ---
 

@@ -64,7 +64,7 @@ Dos propiedades del material de la boquilla determinan todo lo demás: la **dure
 |---|---|
 | PLA, PETG, PA (impresión general) | Latón 0.4 mm |
 | Miniaturas y modelos de detalle | Acero endurecido 0.2–0.3 mm |
-| FiLL-3D PPCF o fibra de vidrio | Acero endurecido 0.4–0.6 mm |
+| Fill3D PPCF o fibra de vidrio | Acero endurecido 0.4–0.6 mm |
 | Prototipos rápidos de gran volumen | Latón o acero endurecido 0.6–0.8 mm |
 | Uso con materiales de temperatura alta (>300 °C) | Acero inoxidable o coated |
 
@@ -86,7 +86,7 @@ La regla de altura de capa ≤ 80% del diámetro existe porque extrudir una lín
 
 ### El problema del PPCF con boquillas de latón
 
-El FiLL-3D PPCF puede destruir una boquilla de latón en una sola sesión de impresión de 3–4 horas. Las partículas de fibra de carbono actúan como papel de lija a 300 °C. La única opción viable es acero endurecido (o superior). Después de cambiar a endurecido, recalibra el flujo: la menor conductividad térmica del acero puede requerir subir 5–10 °C respecto al perfil de latón para mantener la misma viscosidad de fundido.
+El Fill3D PPCF puede destruir una boquilla de latón en una sola sesión de impresión de 3–4 horas. Las partículas de fibra de carbono actúan como papel de lija a 300 °C. La única opción viable es acero endurecido (o superior). Después de cambiar a endurecido, recalibra el flujo: la menor conductividad térmica del acero puede requerir subir 5–10 °C respecto al perfil de latón para mantener la misma viscosidad de fundido.
 
 ### Boquillas de alto flujo para impresión a velocidad
 

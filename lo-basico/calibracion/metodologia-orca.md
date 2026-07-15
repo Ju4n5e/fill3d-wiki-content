@@ -83,7 +83,7 @@ En la figura 1 puedes ver la torre completa (Fig. 1a), la primera sección con b
 
 **Tipos de test disponibles:**
 
-- **PA Line (recomendado por FiLL-3D):** El más rápido de los tres. Imprime una serie de líneas paralelas, cada una con un valor de PA distinto. Se identifica la línea más uniforme a lo largo de toda su longitud — sin blobs en los extremos ni adelgazamientos — y ese valor se guarda en el perfil de filamento.
+- **PA Line (recomendado por Fill3D):** El más rápido de los tres. Imprime una serie de líneas paralelas, cada una con un valor de PA distinto. Se identifica la línea más uniforme a lo largo de toda su longitud — sin blobs en los extremos ni adelgazamientos — y ese valor se guarda en el perfil de filamento.
 - **Tower:** Imprime una torre vertical; cada sección corresponde a un valor de PA distinto. Se busca la altura donde las esquinas se ven más limpias y se calcula el valor con la fórmula `PA = inicio + (paso × altura)`. Más robusto ante variaciones de primera capa que el método Line.
 - **Pattern:** Basado en el método de Andrew Ellis. Imprime prismas rectangulares con G-code personalizado por capas. Permite mayor control sobre los parámetros del test, pero es más lento de ejecutar e interpretar.
 
@@ -135,9 +135,9 @@ En la figura 1 puedes ver la torre completa (Fig. 1a), la primera sección con b
 
 **Cómo leer el resultado:** El modelo incluye ranuras de diferentes tolerancias. Se identifica cuál encaja correctamente con una pieza de referencia y ese valor se registra como la compensación dimensional del equipo. Este test es opcional para quien imprime principalmente piezas decorativas o prototipos visuales.
 
-### Parámetros de referencia FiLL-3D por material
+### Parámetros de referencia Fill3D por material
 
-Valores de partida recomendados para los filamentos FiLL-3D. Úsalos como punto de inicio antes de calibrar con los tests anteriores.
+Valores de partida recomendados para los filamentos Fill3D. Úsalos como punto de inicio antes de calibrar con los tests anteriores.
 
 | Material | Temp. boquilla (°C) | Flujo vol. máx. (mm³/s) | Pressure Advance K | Flow ratio (%) | Retracción (mm @ mm/s) | Temp. cama (°C) | Temp. ambiente (°C) | Enfriamiento (% ventilador) | Tiempo mín./capa (s) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

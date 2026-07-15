@@ -1,5 +1,5 @@
 ---
-titulo: "Inicio — Wiki FiLL-3D"
+titulo: "Inicio — Wiki Fill3D"
 slug: "index"
 seccion: ""
 subseccion: ""
@@ -9,9 +9,9 @@ ultima_revision: "2026-03-25"
 estado: "terminado"
 ---
 
-# Inicio — Wiki FiLL-3D
+# Inicio — Wiki Fill3D
 
-Bienvenido a la wiki oficial de FiLL-3D, tu referencia técnica para imprimir mejor con filamentos fabricados en Colombia. Aquí encuentras desde los conceptos más básicos hasta los ajustes más avanzados — todo en un solo lugar, sin importar si llevas una semana o cinco años imprimiendo. Esta wiki es para ti: para que saques el máximo provecho de tu impresora y de tus filamentos FiLL-3D.
+Bienvenido a la wiki oficial de Fill3D, tu referencia técnica para imprimir mejor con filamentos fabricados en Colombia. Aquí encuentras desde los conceptos más básicos hasta los ajustes más avanzados — todo en un solo lugar, sin importar si llevas una semana o cinco años imprimiendo. Esta wiki es para ti: para que saques el máximo provecho de tu impresora y de tus filamentos Fill3D.
 
 Si estás comenzando, te recomendamos ir directo a **Lo Básico** y leer en orden — ahí encontrarás todo lo que necesitas para empezar con buen pie. Si ya tienes experiencia, salta a **Consejos de Impresión** para optimizar tus resultados. Y si en cualquier momento te topas con un término que no reconoces, el **Glosario** está siempre disponible como referencia rápida.
 
@@ -31,7 +31,7 @@ Todo lo que necesitas saber para comenzar a imprimir con confianza, desde cero.
 - [Materiales de Impresión 3D](lo-basico/materiales-impresion-3d.md) — Panorama general de los tipos de filamento y cómo elegir el indicado para tu proyecto.
 - [Impresoras 3D](lo-basico/impresoras-3d.md) — Tipos de impresoras, sus partes principales y cómo mantenerlas en buen estado.
 - [Slicers](lo-basico/slicers.md) — Qué es un slicer, cuáles son los más usados y cómo configurar los parámetros esenciales.
-- [Fichas de materiales: PLA, PETG, PA, PP y más](lo-basico/materiales-impresion-3d.md) — Fichas técnicas detalladas con parámetros de impresión recomendados para cada material FiLL-3D.
+- [Fichas de materiales: PLA, PETG, PA, PP y más](lo-basico/materiales-impresion-3d.md) — Fichas técnicas detalladas con parámetros de impresión recomendados para cada material Fill3D.
 
 ---
 
@@ -63,11 +63,11 @@ Depende del nivel de exigencia mecánica y térmica. Para la mayoría de las pie
 Lo que describes se llama **warping** y ocurre cuando el material se contrae al enfriarse de forma desigual, levantando las esquinas de la pieza. Las causas más comunes son una cama mal nivelada, temperatura de cama insuficiente o un ambiente con corrientes de aire. En la [página de Problemas Comunes](consejos-de-impresion/problemas-comunes.md) encontrarás el diagnóstico completo y la solución paso a paso.
 
 **¿Qué es el PLA Turbo?**
-El [PLA Turbo](lo-basico/materiales/pla.md) es la variante de alta velocidad de FiLL-3D, formulada para impresoras con sistemas de movimiento rápido como CoreXY. Mantiene las ventajas del PLA estándar pero está optimizado para velocidades superiores sin sacrificar adhesión entre capas ni detalle superficial — que tu limitación no sea el material.
+El [PLA Turbo](lo-basico/materiales/pla.md) es la variante de alta velocidad de Fill3D, formulada para impresoras con sistemas de movimiento rápido como CoreXY. Mantiene las ventajas del PLA estándar pero está optimizado para velocidades superiores sin sacrificar adhesión entre capas ni detalle superficial — que tu limitación no sea el material.
 
-**¿Cómo contacto a FiLL-3D?**
-Puedes comunicarte con el equipo de FiLL-3D por WhatsApp o llamada al **(314) 745-8472**. También puedes visitar el sitio web en [fill-3d.com/contactanos](https://www.fill-3d.com/contactanos/) donde encontrarás más canales de contacto y toda la información sobre los productos y el servicio postventa.
+**¿Cómo contacto a Fill3D?**
+Puedes comunicarte con el equipo de Fill3D por WhatsApp o llamada al **(314) 745-8472**. También puedes visitar el sitio web en [fill-3d.com/contactanos](https://www.fill-3d.com/contactanos/) donde encontrarás más canales de contacto y toda la información sobre los productos y el servicio postventa.
 
 ---
 
-¿Listo para imprimir mejor? Visita la tienda de FiLL-3D y encuentra el filamento ideal para tu próximo proyecto: [fill-3d.com/tienda](https://www.fill-3d.com/tienda/)
+¿Listo para imprimir mejor? Visita la tienda de Fill3D y encuentra el filamento ideal para tu próximo proyecto: [fill-3d.com/tienda](https://www.fill-3d.com/tienda/)

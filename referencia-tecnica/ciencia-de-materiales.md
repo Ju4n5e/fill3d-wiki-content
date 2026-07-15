@@ -61,7 +61,7 @@ Esto ocurre porque en el plano XY el material forma un cuerpo continuo dentro de
 
 #### Higroscopicidad
 
-Algunos polímeros absorben humedad del ambiente — se llaman **higroscópicos**. El PA (Nylon) destaca por su resistencia mecánica y durabilidad, pero es el caso más extremo en higroscopicidad del catálogo FiLL-3D: puede absorber suficiente humedad en pocas horas de exposición al aire como para arruinar una impresión. El PP, en cambio, es prácticamente hidrófobo — no absorbe agua de forma significativa.
+Algunos polímeros absorben humedad del ambiente — se llaman **higroscópicos**. El PA (Nylon) destaca por su resistencia mecánica y durabilidad, pero es el caso más extremo en higroscopicidad del catálogo Fill3D: puede absorber suficiente humedad en pocas horas de exposición al aire como para arruinar una impresión. El PP, en cambio, es prácticamente hidrófobo — no absorbe agua de forma significativa.
 
 Cuando un filamento húmedo pasa por la boquilla caliente, el agua se evapora de forma violenta y genera burbujas, crujidos y un acabado superficial degradado. Las consecuencias incluyen: poros visibles en la pieza, pérdida de resistencia mecánica, stringing excesivo y problemas de adhesión entre capas. La solución es secar el filamento antes de imprimir y almacenarlo en condiciones controladas (bolsa sellada con desecante).
 

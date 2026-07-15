@@ -78,7 +78,7 @@ El **PLA** ocupa un punto intermedio: técnicamente semicristalino, pero con cin
 
 **[PA — Nylon](./materiales/pa-nylon.md)** entra en escena cuando se necesita resistencia mecánica real: impacto, flexión cíclica, fricción. Es el material de los engranes, palancas y soportes funcionales. Requiere más cuidado en impresión y es altamente higroscópico — absorbe humedad del ambiente y eso afecta directamente la calidad.
 
-**[PP — Polipropileno](./materiales/pp.md)** es uno de los plásticos más usados en industria y vida cotidiana (tapas de frascos, contenedores, piezas de auto), pero es de los más difíciles de imprimir bien por su alta contracción y baja adhesión. Cuando se logra, ofrece excelente resistencia química y una combinación única de rigidez con flexibilidad. Una forma de mejorar su imprimibilidad es añadir **fibra de carbono**, que actúa como estabilizador dimensional: las fibras restringen el movimiento de las cadenas poliméricas durante el enfriamiento, reducen la contracción y mejoran la fluidez del fundido — resultado: menos warping y una impresión más controlada. Ese es el principio detrás del [FiLL-3D PPCF](https://www.fill-3d.com/tienda/).
+**[PP — Polipropileno](./materiales/pp.md)** es uno de los plásticos más usados en industria y vida cotidiana (tapas de frascos, contenedores, piezas de auto), pero es de los más difíciles de imprimir bien por su alta contracción y baja adhesión. Cuando se logra, ofrece excelente resistencia química y una combinación única de rigidez con flexibilidad. Una forma de mejorar su imprimibilidad es añadir **fibra de carbono**, que actúa como estabilizador dimensional: las fibras restringen el movimiento de las cadenas poliméricas durante el enfriamiento, reducen la contracción y mejoran la fluidez del fundido — resultado: menos warping y una impresión más controlada. Ese es el principio detrás del [Fill3D PPCF](https://www.fill-3d.com/tienda/).
 
 ---
 
@@ -98,7 +98,7 @@ PA absorbe hasta 2.5–3.5 % en masa de agua a saturación ambiente, lo que baja
 
 ### Compatibilidad con aditivos funcionales
 
-La estructura del polímero base limita qué aditivos funcionan. Las fibras cortas de carbono o vidrio mejoran rigidez en amorfos y semicristalinos, pero en PP la baja adhesión interfacial fibra-matriz sin compatibilizador reduce la ganancia real. El **FiLL-3D PPCF** resuelve esto a nivel formulación — el compounding importa tanto como el aditivo.
+La estructura del polímero base limita qué aditivos funcionan. Las fibras cortas de carbono o vidrio mejoran rigidez en amorfos y semicristalinos, pero en PP la baja adhesión interfacial fibra-matriz sin compatibilizador reduce la ganancia real. El **Fill3D PPCF** resuelve esto a nivel formulación — el compounding importa tanto como el aditivo.
 
 > 💡 **Nota técnica:** El parámetro de solubilidad de Hildebrand predice miscibilidad entre polímeros y solventes de post-procesado. PETG (~20 MPa½) es compatible con acetona a baja concentración y cloruro de metileno; PLA (~20.2 MPa½) responde bien a acetato de etilo. PA y PP son prácticamente insolubles en solventes comunes a temperatura ambiente — sus opciones de alisado químico son muy limitadas.
 
@@ -108,3 +108,16 @@ La estructura del polímero base limita qué aditivos funcionan. Las fibras cort
 - [Introducción a la Impresión 3D](./introduccion-impresion-3d.md)
 - [Slicers (Laminadores)](./slicers.md)
 - [Comparativa de Materiales](../consejos-de-impresion/por-tipo-de-material.md)
+
+---
+
+## Diámetros: 1.75 mm vs 2.85 mm — ¿cuál usa tu impresora?
+
+Antes de comprar filamento, verifica el diámetro que usa tu impresora — no son intercambiables:
+
+| Diámetro | Quién lo usa | Notas |
+|---|---|---|
+| **1.75 mm** | La gran mayoría de impresoras de escritorio actuales: Creality (Ender, K1), Bambu Lab, Anycubic, Elegoo, Prusa, Artillery… | Es el estándar del mercado y el diámetro de **todo el catálogo Fill3D** |
+| **2.85 mm** (a veces llamado "3 mm") | Ultimaker, algunas BCN3D, LulzBot y modelos antiguos | Cada vez menos común en escritorio |
+
+Si tu impresora es de 2.85 mm, escríbenos por WhatsApp antes de comprar y te confirmamos disponibilidad — nuestro catálogo activo es 1.75 mm. ¿No sabes cuál usa la tuya? Busca el modelo en [¿Sirve para mi impresora?](../consejos-de-impresion/perfiles-por-impresora.md) o revisa la especificación del fabricante.

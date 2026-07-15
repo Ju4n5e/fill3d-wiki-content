@@ -20,9 +20,9 @@ version: "1.0"
 
 Los filamentos con **fibra de carbono** o **fibra de vidrio** son materiales compuestos: toman un plástico base y le mezclan fibras cortas para hacerlo notablemente más rígido y resistente. El resultado es un material con comportamiento diferente al base: más duro al tacto, con un acabado superficial mate muy particular, y piezas considerablemente más rígidas sin aumentar el peso.
 
-En el catálogo de FiLL-3D esta categoría está representada por el PPCF mejoran principalmente la **rigidez** (módulo de Young) y la **resistencia específica** (resistencia por unidad de peso) del polímero base. La fibra de carbono maximiza la rigidez y reduce el peso; la fibra de vidrio es más económica y mejora también la resistencia al impacto. En ambos casos, la **fragilidad** aumenta respecto al polímero puro — los compuestos con fibra son menos dúctiles y absorben menos energía antes de fracturarse.
+En el catálogo de Fill3D esta categoría está representada por el PPCF mejoran principalmente la **rigidez** (módulo de Young) y la **resistencia específica** (resistencia por unidad de peso) del polímero base. La fibra de carbono maximiza la rigidez y reduce el peso; la fibra de vidrio es más económica y mejora también la resistencia al impacto. En ambos casos, la **fragilidad** aumenta respecto al polímero puro — los compuestos con fibra son menos dúctiles y absorben menos energía antes de fracturarse.
 
-### Parámetros de impresión recomendados — FiLL-3D PPCF
+### Parámetros de impresión recomendados — Fill3D PPCF
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
@@ -54,7 +54,7 @@ En el catálogo de FiLL-3D esta categoría está representada por el PPCF mejora
 | Mantiene las propiedades del polímero base | Mayor costo que el material base |
 | Excelente para piezas estructurales livianas | Resistencia en Z significativamente menor que en XY |
 
-![Voron Design Cube impreso en PPCF FiLL-3D — acabado superficial mate característico](../../../assets/images/materiales-reference/PPCF-voron.jpg)
+![Voron Design Cube impreso en PPCF Fill3D — acabado superficial mate característico](../../../assets/images/materiales-reference/PPCF-voron.jpg)
 
 ### Almacenamiento
 
@@ -74,7 +74,7 @@ Las fibras de carbono y vidrio desgastan incluso las boquillas de acero endureci
 
 ### Por qué el PPCF imprime más rápido que el PP base
 
-El PP puro es un filamento excepcionalmente blando y flexible, lo que lo hace propenso al *buckling* en la zona de avance del extrusor: antes de que el hotend pueda fundir el material, el filamento se dobla o patina, limitando el flujo máximo. En pruebas de calibración con FiLL-3D PP el flujo volumétrico máximo alcanzado fue de **14 mm³/s**. Con FiLL-3D PPCF ese límite sube a **17 mm³/s** — equivalente a ~200 mm/s lineales con boquilla de 0.4 mm y altura de capa de 0.2 mm.
+El PP puro es un filamento excepcionalmente blando y flexible, lo que lo hace propenso al *buckling* en la zona de avance del extrusor: antes de que el hotend pueda fundir el material, el filamento se dobla o patina, limitando el flujo máximo. En pruebas de calibración con Fill3D PP el flujo volumétrico máximo alcanzado fue de **14 mm³/s**. Con Fill3D PPCF ese límite sube a **17 mm³/s** — equivalente a ~200 mm/s lineales con boquilla de 0.4 mm y altura de capa de 0.2 mm.
 
 El mecanismo no es una mejora de la fluidez del fundido (reológicamente, las fibras aumentan la viscosidad aparente), sino una mejora en la **transmisión de fuerza del extrusor**: las fibras cortas rigidizan el filamento sólido en la zona de avance, reduciendo el *buckling* y permitiendo mayor presión efectiva en la cámara de fusión antes del fallo. Dicho de otra forma: el cuello de botella del PP puro está en el filamento sólido, no en el hotend — y las fibras eliminan ese cuello de botella.
 

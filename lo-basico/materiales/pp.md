@@ -22,11 +22,11 @@ El **PP** (polipropileno) es uno de los plásticos más usados en el mundo indus
 
 La mala noticia es que el PP es famoso por ser uno de los materiales más difíciles de imprimir en FDM. Su mayor reto no es la temperatura sino la adhesión: el PP es tan poco reactivo químicamente que casi nada se le pega bien. Necesitas superficies o adhesivos especiales y una calibración cuidadosa para que la primera capa quede bien adherida.
 
-Si ya tienes experiencia con PA o PETG y necesitas piezas que resistan químicos, sean muy livianas o requieran flexión cíclica prolongada, el FiLL-3D PP, excelente **resistencia química** a ácidos, bases y la mayoría de solventes orgánicos, y una resistencia única a la **fatiga por flexión cíclica**: puede doblarse decenas de miles de veces en el mismo punto sin romperse. Su temperatura de servicio llega a ~100–110 °C bajo carga ligera.
+Si ya tienes experiencia con PA o PETG y necesitas piezas que resistan químicos, sean muy livianas o requieran flexión cíclica prolongada, el Fill3D PP, excelente **resistencia química** a ácidos, bases y la mayoría de solventes orgánicos, y una resistencia única a la **fatiga por flexión cíclica**: puede doblarse decenas de miles de veces en el mismo punto sin romperse. Su temperatura de servicio llega a ~100–110 °C bajo carga ligera.
 
-![Voron Design Cube impreso en PP FiLL-3D](../../../assets/images/materiales-reference/PP-voron.jpg)
+![Voron Design Cube impreso en PP Fill3D](../../../assets/images/materiales-reference/PP-voron.jpg)
 
-### Parámetros de impresión recomendados — FiLL-3D PP
+### Parámetros de impresión recomendados — Fill3D PP
 
 | Parámetro | Valor recomendado | Notas |
 |---|---|---|
@@ -47,7 +47,7 @@ Si ya tienes experiencia con PA o PETG y necesitas piezas que resistan químicos
 - Piezas que requieren resistencia al vapor
 - Prototipos de envases de consumo masivo
 
-![Benchy impreso en PP FiLL-3D](../../../assets/images/materiales-reference/PP-benchy.jpg)
+![Benchy impreso en PP Fill3D](../../../assets/images/materiales-reference/PP-benchy.jpg)
 
 ### Ventajas y limitaciones
 
