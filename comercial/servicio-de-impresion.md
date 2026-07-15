@@ -22,7 +22,7 @@ Sí, **imprimimos piezas por encargo**. Es la forma más directa de aprovechar n
 
 ### 1. Envía tu archivo por WhatsApp
 
-Mándanos el **STL** (u otro formato 3D: STEP, OBJ, 3MF) por el WhatsApp de FiLL-3D. Si no tienes archivo pero sí una idea o una pieza física a replicar, cuéntanos — te orientamos sobre cómo conseguir el modelo.
+Mándanos el **STL** (u otro formato 3D: STEP, OBJ, 3MF) por el WhatsApp de Fill3D. Si no tienes archivo pero sí una idea o una pieza física a replicar, cuéntanos — te orientamos sobre cómo conseguir el modelo.
 
 ### 2. Cuéntanos los detalles
 

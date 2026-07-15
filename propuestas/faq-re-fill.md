@@ -14,7 +14,7 @@ version: "1.0"
 
 > Todo lo que nos preguntan sobre el sistema Re-Fill: qué incluye, con qué carretes funciona y cómo sacarle el máximo provecho.
 
-El [Re-Fill](https://www.fill-3d.com/tienda/) es nuestro formato eco: el mismo filamento FiLL-3D de siempre, **sin carrete**. Menos plástico, menos empaque y mejor precio por kilo. Aquí respondemos las dudas más comunes — si buscas el paso a paso para cargarlo, está en [Cómo Cargar tu Re-Fill en el Carrete](guia-re-fill).
+El [Re-Fill](https://www.fill-3d.com/tienda/) es nuestro formato eco: el mismo filamento Fill3D de siempre, **sin carrete**. Menos plástico, menos empaque y mejor precio por kilo. Aquí respondemos las dudas más comunes — si buscas el paso a paso para cargarlo, está en [Cómo Cargar tu Re-Fill en el Carrete](guia-re-fill).
 
 ---
 
@@ -30,7 +30,7 @@ Un rollo de **1 kg de filamento enrollado y zunchado**, sellado al vacío con de
 
 Cualquiera de estas opciones funciona:
 
-- **Un carrete FiLL-3D vacío** de una compra anterior (nuestros carretes son desarmables, diseñados para el sistema Re-Fill).
+- **Un carrete Fill3D vacío** de una compra anterior (nuestros carretes son desarmables, diseñados para el sistema Re-Fill).
 - **Un carrete reutilizable compatible**: los carretes desarmables estándar de 1 kg (dos mitades que se enroscan o atornillan) funcionan sin problema.
 - ¿No tienes ninguno? Escríbenos por WhatsApp y te ayudamos a conseguir tu primer carrete reutilizable.
 
@@ -63,7 +63,7 @@ Exactamente el mismo. Misma línea de producción, misma formulación, mismo con
 
 Porque no estás pagando (ni botando) un carrete nuevo con cada kilo. El carrete es una de las partes más costosas del empaque de un filamento — y la que más plástico desperdicia si no se reutiliza.
 
-Si imprimes seguido, combina Re-Fill con el [Turbo Club](https://fill-3d.com/turbo-club-founders/) (–$8.000 en cada rollo) y obtienes el mejor precio por kilo de todo el catálogo.
+Si imprimes seguido, combina Re-Fill con el [Turbo Club](https://www.fill-3d.com/turbo-club/) (–$8.000 en cada rollo) y obtienes el mejor precio por kilo de todo el catálogo.
 
 ---
 

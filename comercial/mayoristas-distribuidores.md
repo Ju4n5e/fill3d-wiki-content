@@ -1,5 +1,5 @@
 ---
-titulo: "Mayoristas y Distribuidores — Cómo trabajar con FiLL-3D"
+titulo: "Mayoristas y Distribuidores — Cómo trabajar con Fill3D"
 slug: "mayoristas-distribuidores"
 seccion: "comercial"
 subseccion: ""
@@ -10,7 +10,7 @@ estado: "borrador"
 version: "1.0"
 ---
 
-# Mayoristas y Distribuidores — Cómo trabajar con FiLL-3D
+# Mayoristas y Distribuidores — Cómo trabajar con Fill3D
 
 > ¿Imprimes en volumen, tienes tienda o quieres revender filamento colombiano? Así funcionan nuestros precios escalonados y el programa de distribuidores.
 
@@ -26,7 +26,7 @@ Cada pedido tiene descuento automático según la cantidad de rollos: **a más u
 
 ### 2. Turbo Club (si imprimes seguido)
 
-La [membresía Turbo Club](https://fill-3d.com/turbo-club-founders/) te da **$8.000 menos en cada rollo** de todo el catálogo, y **se suma** al descuento por cantidad. Con 4 rollos al mes ya se pagó sola. Es la mejor opción para makers, granjas de impresión y negocios que compran todos los meses pero no en volúmenes de distribuidor.
+La [membresía Turbo Club](https://www.fill-3d.com/turbo-club/) te da **$8.000 menos en cada rollo** de todo el catálogo, y **se suma** al descuento por cantidad. Con 4 rollos al mes ya se pagó sola. Es la mejor opción para makers, granjas de impresión y negocios que compran todos los meses pero no en volúmenes de distribuidor.
 
 ### 3. Distribuidores (tiendas y revendedores)
 
@@ -39,7 +39,7 @@ Hoy tenemos aliados como **La Plaza 3D** (Medellín) y **Schedio Studio 3D** (Bo
 - Compras recurrentes en volumen
 - Ganas de representar filamento fabricado en Colombia con garantía total
 
-**¿Cómo aplicar?** Escríbenos por WhatsApp o a través de [contáctanos](https://fill-3d.com/contactanos/) con: nombre del negocio, ciudad, canales de venta y volumen mensual estimado. El equipo comercial te responde con la propuesta.
+**¿Cómo aplicar?** Escríbenos por WhatsApp o a través de [contáctanos](https://www.fill-3d.com/contactanos/) con: nombre del negocio, ciudad, canales de venta y volumen mensual estimado. El equipo comercial te responde con la propuesta.
 
 ---
 

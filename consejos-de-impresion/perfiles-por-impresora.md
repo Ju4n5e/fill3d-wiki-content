@@ -12,9 +12,9 @@ version: "1.0"
 
 # ¿Sirve para mi impresora? Perfiles por modelo
 
-> La respuesta corta: sí. Si tu impresora usa filamento de 1.75 mm, los filamentos FiLL-3D le sirven. Aquí están los valores de partida para los modelos más comunes en Colombia.
+> La respuesta corta: sí. Si tu impresora usa filamento de 1.75 mm, los filamentos Fill3D le sirven. Aquí están los valores de partida para los modelos más comunes en Colombia.
 
-Es la pregunta que más nos hacen: *"¿el PLA Turbo sirve para mi Ender 3 V2?"*. Los filamentos FiLL-3D son de **1.75 mm estándar** — funcionan en cualquier impresora FDM de escritorio. Lo que cambia entre modelos es la **velocidad que puede aprovechar** y los ajustes de partida.
+Es la pregunta que más nos hacen: *"¿el PLA Turbo sirve para mi Ender 3 V2?"*. Los filamentos Fill3D son de **1.75 mm estándar** — funcionan en cualquier impresora FDM de escritorio. Lo que cambia entre modelos es la **velocidad que puede aprovechar** y los ajustes de partida.
 
 > **Importante:** estos valores son puntos de partida seguros. Para exprimir tu combinación exacta de impresora + filamento, corre la [calibración con Orca Slicer](../lo-basico/calibracion/metodologia-orca) — toma 30 minutos y vale cada segundo.
 
@@ -55,7 +55,7 @@ La ficha completa está en [PETG — Ficha de Material](../lo-basico/materiales/
 
 No pasa nada — la lógica es la misma:
 
-1. ¿Usa filamento de **1.75 mm**? → los filamentos FiLL-3D le sirven.
+1. ¿Usa filamento de **1.75 mm**? → los filamentos Fill3D le sirven.
 2. Arranca con el **perfil genérico de PLA** (o PETG) de tu slicer.
 3. Ajusta la temperatura de boquilla al rango de la tabla según tu velocidad.
 4. Corre el [cubo de calibración](../lo-basico/calibracion/cubo-de-calibracion) y un [Benchy](../lo-basico/calibracion/benchy) para validar.
