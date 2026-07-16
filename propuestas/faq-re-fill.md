@@ -55,7 +55,7 @@ Sí. Una vez cargado en el carrete, el Re-Fill es un rollo de filamento normal d
 
 ## ¿Es el mismo filamento del rollo con carrete?
 
-Exactamente el mismo. Misma línea de producción, misma formulación, mismo control de calidad lote a lote y la misma **Garantía Total de 30 días**. Solo cambia el empaque.
+Exactamente el mismo. Misma línea de producción, misma formulación, mismo control de calidad lote a lote y la misma **Garantía Total**. Solo cambia el empaque.
 
 ---
 
