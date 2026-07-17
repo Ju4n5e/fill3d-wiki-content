@@ -3,37 +3,24 @@
     {
       "label": "Lo básico",
       "items": [
-        { "label": "Introducción a la impresión 3D", "path": "lo-basico/introduccion-impresion-3d.md", "icon": "play" },
-        { "label": "Materiales de impresión 3D", "path": "lo-basico/materiales-impresion-3d.md", "icon": "circle" },
-        { "label": "Impresoras 3D", "path": "lo-basico/impresoras-3d.md", "icon": "square" },
-        { "label": "Slicers de impresión", "path": "lo-basico/slicers.md", "icon": "loader" },
-        { "label": "Aplicaciones", "path": "lo-basico/aplicaciones.md", "icon": "circle" },
-        { "label": "Datos curiosos del 3D", "path": "lo-basico/datos-curiosos.md", "icon": "circle" },
         {
-          "label": "Primeros pasos", "icon": "folder",
+          "label": "Empieza aquí", "icon": "play",
           "children": [
+            { "label": "Introducción a la impresión 3D", "path": "lo-basico/introduccion-impresion-3d.md", "icon": "play" },
             { "label": "Estrenando tu impresora", "path": "lo-basico/primeros-pasos/impresora.md", "icon": "dot" },
-            { "label": "Recibiendo un material nuevo", "path": "lo-basico/primeros-pasos/material.md", "icon": "dot" }
+            { "label": "Recibiendo un material nuevo", "path": "lo-basico/primeros-pasos/material.md", "icon": "dot" },
+            { "label": "Datos curiosos del 3D", "path": "lo-basico/datos-curiosos.md", "icon": "dot" }
           ]
         },
         {
-          "label": "Partes de la impresora", "icon": "folder",
+          "label": "Tu impresora", "icon": "folder",
           "children": [
+            { "label": "Impresoras 3D", "path": "lo-basico/impresoras-3d.md", "icon": "square" },
             { "label": "Boquillas", "path": "lo-basico/partes-impresora/boquillas.md", "icon": "dot" },
             { "label": "Camas de impresión", "path": "lo-basico/partes-impresora/camas-de-impresion.md", "icon": "dot" },
-            { "label": "Extrusores", "path": "lo-basico/partes-impresora/extrusores.md", "icon": "dot" }
-          ]
-        },
-        {
-          "label": "Materiales", "icon": "folder",
-          "children": [
-            { "label": "PLA", "path": "lo-basico/materiales/pla.md", "icon": "circle" },
-            { "label": "PETG", "path": "lo-basico/materiales/petg.md", "icon": "circle" },
-            { "label": "PA / Nylon", "path": "lo-basico/materiales/pa-nylon.md", "icon": "circle" },
-            { "label": "PP", "path": "lo-basico/materiales/pp.md", "icon": "circle" },
-            { "label": "Fibras aditivas", "path": "lo-basico/materiales/fibras-aditivas.md", "icon": "circle" },
-            { "label": "Reciclado y Transición", "path": "lo-basico/materiales/filamento-reciclado.md", "icon": "circle" },
-            { "label": "Fosforescente vs fluorescente", "path": "lo-basico/materiales/fosforescente-vs-fluorescente.md", "icon": "circle" }
+            { "label": "Extrusores", "path": "lo-basico/partes-impresora/extrusores.md", "icon": "dot" },
+            { "label": "Mantenimiento", "path": "lo-basico/mantenimiento/mantenimiento.md", "icon": "dot" },
+            { "label": "Accesorios y repuestos", "path": "lo-basico/mantenimiento/accesorios-y-repuestos.md", "icon": "dot" }
           ]
         },
         {
@@ -46,14 +33,27 @@
           ]
         },
         {
-          "label": "Mantenimiento", "icon": "folder",
+          "label": "Materiales", "icon": "folder",
           "children": [
-            { "label": "Mantenimiento", "path": "lo-basico/mantenimiento/mantenimiento.md", "icon": "dot" },
-            { "label": "Accesorios y repuestos", "path": "lo-basico/mantenimiento/accesorios-y-repuestos.md", "icon": "dot" }
+            { "label": "Guía de materiales", "path": "lo-basico/materiales-impresion-3d.md", "icon": "circle" },
+            { "label": "PLA", "path": "lo-basico/materiales/pla.md", "icon": "circle" },
+            { "label": "PETG", "path": "lo-basico/materiales/petg.md", "icon": "circle" },
+            { "label": "PA / Nylon", "path": "lo-basico/materiales/pa-nylon.md", "icon": "circle" },
+            { "label": "PP", "path": "lo-basico/materiales/pp.md", "icon": "circle" },
+            { "label": "Fibras aditivas", "path": "lo-basico/materiales/fibras-aditivas.md", "icon": "circle" },
+            { "label": "Reciclado y transición", "path": "lo-basico/materiales/filamento-reciclado.md", "icon": "circle" },
+            { "label": "Fosforescente vs fluorescente", "path": "lo-basico/materiales/fosforescente-vs-fluorescente.md", "icon": "circle" }
           ]
         },
-        { "label": "Perfiles OrcaSlicer", "path": "__perfiles-filamento__", "icon": "download" },
-        { "label": "Perfiles Creality Print", "path": "__perfiles-creality__", "icon": "download" }
+        {
+          "label": "Software y perfiles", "icon": "folder",
+          "children": [
+            { "label": "Slicers de impresión", "path": "lo-basico/slicers.md", "icon": "loader" },
+            { "label": "Aplicaciones", "path": "lo-basico/aplicaciones.md", "icon": "circle" },
+            { "label": "Perfiles OrcaSlicer", "path": "__perfiles-filamento__", "icon": "download" },
+            { "label": "Perfiles Creality Print", "path": "__perfiles-creality__", "icon": "download" }
+          ]
+        }
       ]
     },
     {
