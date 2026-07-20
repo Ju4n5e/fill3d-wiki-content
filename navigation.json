@@ -67,6 +67,12 @@
       ]
     },
     {
+    "label": "Comunidad",
+    "items": [
+      { "label": "Resuelto por la comunidad", "path": "__comunidad__", "icon": "book" }
+    ]
+    },
+    {
       "label": "Re-Fill",
       "items": [
         { "label": "Cómo cargar tu Re-Fill", "path": "propuestas/guia-re-fill.md", "icon": "play" },
